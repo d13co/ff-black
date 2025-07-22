@@ -28,4 +28,8 @@
 
 ## Usage
 
-(Partial) tests are available under smart_contracts/ff_black/contract.e2e.spec.ts - these show how to call, etc.
+**Partial** tests show how to set up, call, etc: projects/ff-black/smart_contracts/ff_black/contract.e2e.spec.ts
+
+Contract code is under projects/ff-black/smart_contracts/ff_black/contract.algo.ts
+
+Please doublecheck everything.
