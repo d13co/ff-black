@@ -25,3 +25,5 @@
   - Fields are documented at the top of contract.algo.ts
 - Add whitelisted accounts with `addWhitelist`. You can do 8x per app call, 128 per group txn.
 - Send selling asset to contract.
+
+(Partial) tests are available under smart_contracts/ff_black/contract.e2e.spec.ts - these show how to call, etc.

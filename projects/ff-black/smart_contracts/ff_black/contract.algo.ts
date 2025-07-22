@@ -201,7 +201,9 @@ export class FfBlack extends Contract {
     this.assetPrice.value = config.assetPrice.native
     this.unfreezeTime.value = config.unfreezeTime.native
 
-    this._optin(this.sellingAsset.value)
+    if (!Global.currentApplicationAddress.isOptedIn(this.sellingAsset.value)) {
+      this._optin(this.sellingAsset.value)
+    }
   }
 
   /**
