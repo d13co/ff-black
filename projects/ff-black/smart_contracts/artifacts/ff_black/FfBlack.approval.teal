@@ -4,42 +4,42 @@
 // @algorandfoundation/algorand-typescript/arc4/index.d.ts::Contract.approvalProgram() -> uint64:
 main:
     intcblock 0 1 32 4
-    bytecblock "algoPrice" "assetPrice" "revenueAddress" "sellingAsset" "purchaseAsset" "unfreezeTime" "admin" "ERR:PAYRCV" "ERR:UNDERPAY" "ERR:OVERPAY"
+    bytecblock "sellingAsset" "algoPrice" "assetPrice" "revenueAddress" "admin" "purchaseAsset" "unfreezeTime" "ERR:PAYRCV" "ERR:UNDERPAY" "ERR:OVERPAY"
     txn ApplicationID
     bnz main_after_if_else@2
-    // smart_contracts/ff_black/contract.algo.ts:29
-    // admin = GlobalState<Account>({ initialValue: Txn.sender })
-    bytec 6 // "admin"
-    txn Sender
-    app_global_put
     // smart_contracts/ff_black/contract.algo.ts:30
-    // revenueAddress = GlobalState<Account>({ initialValue: Txn.sender })
-    bytec_2 // "revenueAddress"
+    // admin = GlobalState<Account>({ initialValue: Txn.sender })
+    bytec 4 // "admin"
     txn Sender
     app_global_put
     // smart_contracts/ff_black/contract.algo.ts:32
-    // sellingAsset = GlobalState<Asset>({ initialValue: Asset(0) })
-    bytec_3 // "sellingAsset"
-    intc_0 // 0
-    app_global_put
-    // smart_contracts/ff_black/contract.algo.ts:33
-    // algoPrice = GlobalState<uint64>({ initialValue: 0 })
-    bytec_0 // "algoPrice"
-    intc_0 // 0
+    // revenueAddress = GlobalState<Account>({ initialValue: Txn.sender })
+    bytec_3 // "revenueAddress"
+    txn Sender
     app_global_put
     // smart_contracts/ff_black/contract.algo.ts:34
+    // sellingAsset = GlobalState<Asset>({ initialValue: Asset(0) })
+    bytec_0 // "sellingAsset"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/ff_black/contract.algo.ts:36
+    // algoPrice = GlobalState<uint64>({ initialValue: 0 })
+    bytec_1 // "algoPrice"
+    intc_0 // 0
+    app_global_put
+    // smart_contracts/ff_black/contract.algo.ts:38
     // purchaseAsset = GlobalState<Asset>({ initialValue: Asset(0) })
-    bytec 4 // "purchaseAsset"
+    bytec 5 // "purchaseAsset"
     intc_0 // 0
     app_global_put
-    // smart_contracts/ff_black/contract.algo.ts:35
+    // smart_contracts/ff_black/contract.algo.ts:40
     // assetPrice = GlobalState<uint64>({ initialValue: 0 })
-    bytec_1 // "assetPrice"
+    bytec_2 // "assetPrice"
     intc_0 // 0
     app_global_put
-    // smart_contracts/ff_black/contract.algo.ts:37
+    // smart_contracts/ff_black/contract.algo.ts:42
     // unfreezeTime = GlobalState<uint64>({ initialValue: 0 })
-    bytec 5 // "unfreezeTime"
+    bytec 6 // "unfreezeTime"
     intc_0 // 0
     app_global_put
 
@@ -47,19 +47,69 @@ main_after_if_else@2:
     // smart_contracts/ff_black/contract.algo.ts:28
     // export class FfBlack extends Contract {
     txn NumAppArgs
-    bz main_bare_routing@14
-    pushbytess 0xc4661a8e 0x79728b42 0xa0ef0f77 0x59e88229 0x7f19f9d4 0x0e665b9b 0xc8c8bb1f // method "buy(txn)void", method "unfreeze(account)void", method "addWhitelist(address[])void", method "removeWhitelist(address[])void", method "optin(asset)void", method "getConfig()(address,uint64,uint64,uint64,uint64,uint64)", method "setConfig((address,uint64,uint64,uint64,uint64,uint64))void"
+    bz main_bare_routing@16
+    pushbytess 0xc4661a8e 0x79728b42 0xa0ef0f77 0x59e88229 0x7f19f9d4 0xc8c8bb1f 0x3f2c5d16 0x7d136df0 0xbd2af9da // method "buy(txn)void", method "unfreeze(account)void", method "addWhitelist(address[])void", method "removeWhitelist(address[])void", method "optin(asset)void", method "setConfig((address,uint64,uint64,uint64,uint64,uint64))void", method "changeAdmin(account)void", method "assetCloseout(asset)void", method "algoCloseout()void"
     txna ApplicationArgs 0
-    match main_buy_route@5 main_unfreeze_route@6 main_addWhitelist_route@7 main_removeWhitelist_route@8 main_optin_route@9 main_getConfig_route@10 main_setConfig_route@11
+    match main_buy_route@5 main_unfreeze_route@6 main_addWhitelist_route@7 main_removeWhitelist_route@8 main_optin_route@9 main_setConfig_route@10 main_changeAdmin_route@11 main_assetCloseout_route@12 main_algoCloseout_route@13
 
-main_after_if_else@18:
+main_after_if_else@20:
     // smart_contracts/ff_black/contract.algo.ts:28
     // export class FfBlack extends Contract {
     intc_0 // 0
     return
 
-main_setConfig_route@11:
-    // smart_contracts/ff_black/contract.algo.ts:161
+main_algoCloseout_route@13:
+    // smart_contracts/ff_black/contract.algo.ts:235
+    // public algoCloseout() {
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    callsub algoCloseout
+    intc_1 // 1
+    return
+
+main_assetCloseout_route@12:
+    // smart_contracts/ff_black/contract.algo.ts:219
+    // public assetCloseout(asset: Asset) {
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/ff_black/contract.algo.ts:28
+    // export class FfBlack extends Contract {
+    txna ApplicationArgs 1
+    btoi
+    txnas Assets
+    // smart_contracts/ff_black/contract.algo.ts:219
+    // public assetCloseout(asset: Asset) {
+    callsub assetCloseout
+    intc_1 // 1
+    return
+
+main_changeAdmin_route@11:
+    // smart_contracts/ff_black/contract.algo.ts:209
+    // public changeAdmin(newAdmin: Account) {
+    txn OnCompletion
+    !
+    assert // OnCompletion is not NoOp
+    txn ApplicationID
+    assert // can only call when not creating
+    // smart_contracts/ff_black/contract.algo.ts:28
+    // export class FfBlack extends Contract {
+    txna ApplicationArgs 1
+    btoi
+    txnas Accounts
+    // smart_contracts/ff_black/contract.algo.ts:209
+    // public changeAdmin(newAdmin: Account) {
+    callsub changeAdmin
+    intc_1 // 1
+    return
+
+main_setConfig_route@10:
+    // smart_contracts/ff_black/contract.algo.ts:192
     // public setConfig(config: ContractConfig) {
     txn OnCompletion
     !
@@ -69,30 +119,14 @@ main_setConfig_route@11:
     // smart_contracts/ff_black/contract.algo.ts:28
     // export class FfBlack extends Contract {
     txna ApplicationArgs 1
-    // smart_contracts/ff_black/contract.algo.ts:161
+    // smart_contracts/ff_black/contract.algo.ts:192
     // public setConfig(config: ContractConfig) {
     callsub setConfig
     intc_1 // 1
     return
 
-main_getConfig_route@10:
-    // smart_contracts/ff_black/contract.algo.ts:149
-    // @abimethod({ readonly: true })
-    txn OnCompletion
-    !
-    assert // OnCompletion is not NoOp
-    txn ApplicationID
-    assert // can only call when not creating
-    callsub getConfig
-    pushbytes 0x151f7c75
-    swap
-    concat
-    log
-    intc_1 // 1
-    return
-
 main_optin_route@9:
-    // smart_contracts/ff_black/contract.algo.ts:138
+    // smart_contracts/ff_black/contract.algo.ts:172
     // public optin(asset: Asset) {
     txn OnCompletion
     !
@@ -104,14 +138,14 @@ main_optin_route@9:
     txna ApplicationArgs 1
     btoi
     txnas Assets
-    // smart_contracts/ff_black/contract.algo.ts:138
+    // smart_contracts/ff_black/contract.algo.ts:172
     // public optin(asset: Asset) {
     callsub optin
     intc_1 // 1
     return
 
 main_removeWhitelist_route@8:
-    // smart_contracts/ff_black/contract.algo.ts:130
+    // smart_contracts/ff_black/contract.algo.ts:160
     // public removeWhitelist(accounts: arc4.Address[]) {
     txn OnCompletion
     !
@@ -121,14 +155,14 @@ main_removeWhitelist_route@8:
     // smart_contracts/ff_black/contract.algo.ts:28
     // export class FfBlack extends Contract {
     txna ApplicationArgs 1
-    // smart_contracts/ff_black/contract.algo.ts:130
+    // smart_contracts/ff_black/contract.algo.ts:160
     // public removeWhitelist(accounts: arc4.Address[]) {
     callsub removeWhitelist
     intc_1 // 1
     return
 
 main_addWhitelist_route@7:
-    // smart_contracts/ff_black/contract.algo.ts:122
+    // smart_contracts/ff_black/contract.algo.ts:148
     // public addWhitelist(accounts: arc4.Address[]) {
     txn OnCompletion
     !
@@ -138,14 +172,14 @@ main_addWhitelist_route@7:
     // smart_contracts/ff_black/contract.algo.ts:28
     // export class FfBlack extends Contract {
     txna ApplicationArgs 1
-    // smart_contracts/ff_black/contract.algo.ts:122
+    // smart_contracts/ff_black/contract.algo.ts:148
     // public addWhitelist(accounts: arc4.Address[]) {
     callsub addWhitelist
     intc_1 // 1
     return
 
 main_unfreeze_route@6:
-    // smart_contracts/ff_black/contract.algo.ts:108
+    // smart_contracts/ff_black/contract.algo.ts:128
     // public unfreeze(account: Account) {
     txn OnCompletion
     !
@@ -157,14 +191,14 @@ main_unfreeze_route@6:
     txna ApplicationArgs 1
     btoi
     txnas Accounts
-    // smart_contracts/ff_black/contract.algo.ts:108
+    // smart_contracts/ff_black/contract.algo.ts:128
     // public unfreeze(account: Account) {
     callsub unfreeze
     intc_1 // 1
     return
 
 main_buy_route@5:
-    // smart_contracts/ff_black/contract.algo.ts:41
+    // smart_contracts/ff_black/contract.algo.ts:50
     // public buy(txn: gtxn.Transaction) {
     txn OnCompletion
     !
@@ -176,17 +210,17 @@ main_buy_route@5:
     txn GroupIndex
     intc_1 // 1
     -
-    // smart_contracts/ff_black/contract.algo.ts:41
+    // smart_contracts/ff_black/contract.algo.ts:50
     // public buy(txn: gtxn.Transaction) {
     callsub buy
     intc_1 // 1
     return
 
-main_bare_routing@14:
+main_bare_routing@16:
     // smart_contracts/ff_black/contract.algo.ts:28
     // export class FfBlack extends Contract {
     txn OnCompletion
-    bnz main_after_if_else@18
+    bnz main_after_if_else@20
     txn ApplicationID
     !
     assert // can only call when creating
@@ -196,48 +230,48 @@ main_bare_routing@14:
 
 // smart_contracts/ff_black/contract.algo.ts::FfBlack.buy(txn: uint64) -> void:
 buy:
-    // smart_contracts/ff_black/contract.algo.ts:41
+    // smart_contracts/ff_black/contract.algo.ts:50
     // public buy(txn: gtxn.Transaction) {
     proto 1 0
     pushbytes ""
-    dupn 4
-    // smart_contracts/ff_black/contract.algo.ts:42
+    dupn 5
+    // smart_contracts/ff_black/contract.algo.ts:51
     // const buyer = Txn.sender
     txn Sender
-    // smart_contracts/ff_black/contract.algo.ts:32
+    // smart_contracts/ff_black/contract.algo.ts:34
     // sellingAsset = GlobalState<Asset>({ initialValue: Asset(0) })
     intc_0 // 0
-    bytec_3 // "sellingAsset"
+    bytec_0 // "sellingAsset"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:80
+    // smart_contracts/ff_black/contract.algo.ts:95
     // ensure(Txn.groupIndex > 0, 'ERR:GTXN')
     txn GroupIndex
-    // smart_contracts/ff_black/contract.algo.ts:182
+    // smart_contracts/ff_black/contract.algo.ts:253
     // if (!cond) {
-    bnz buy_after_if_else@52
-    // smart_contracts/ff_black/contract.algo.ts:80
+    bnz buy_after_if_else@55
+    // smart_contracts/ff_black/contract.algo.ts:95
     // ensure(Txn.groupIndex > 0, 'ERR:GTXN')
     pushbytes "ERR:GTXN"
-    // smart_contracts/ff_black/contract.algo.ts:183
+    // smart_contracts/ff_black/contract.algo.ts:254
     // log(message)
     log
-    // smart_contracts/ff_black/contract.algo.ts:184
+    // smart_contracts/ff_black/contract.algo.ts:255
     // err()
     err
 
-buy_after_if_else@52:
-    // smart_contracts/ff_black/contract.algo.ts:81
+buy_after_if_else@55:
+    // smart_contracts/ff_black/contract.algo.ts:96
     // switch (txn.type) {
     frame_dig -1
     gtxns TypeEnum
     dup
     frame_bury 0
-    // smart_contracts/ff_black/contract.algo.ts:82
+    // smart_contracts/ff_black/contract.algo.ts:97
     // case TransactionType.Payment:
     intc_1 // 1
     ==
-    // smart_contracts/ff_black/contract.algo.ts:82-90
+    // smart_contracts/ff_black/contract.algo.ts:97-105
     // case TransactionType.Payment:
     //   // ALGO. Confirm receiver
     //   ensure(txn.receiver === this.revenueAddress.value, 'ERR:PAYRCV')
@@ -247,124 +281,124 @@ buy_after_if_else@52:
     //   ensure(txn.amount % this.algoPrice.value === 0, 'ERR:OVERPAY')
     //   // return number of NFTs to buy
     //   return txn.amount / this.algoPrice.value
-    bz buy_after_if_else@8
-    // smart_contracts/ff_black/contract.algo.ts:84
+    bz buy_after_if_else@11
+    // smart_contracts/ff_black/contract.algo.ts:99
     // ensure(txn.receiver === this.revenueAddress.value, 'ERR:PAYRCV')
     frame_dig -1
     gtxns Receiver
-    // smart_contracts/ff_black/contract.algo.ts:30
+    // smart_contracts/ff_black/contract.algo.ts:32
     // revenueAddress = GlobalState<Account>({ initialValue: Txn.sender })
     intc_0 // 0
-    bytec_2 // "revenueAddress"
+    bytec_3 // "revenueAddress"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:84
+    // smart_contracts/ff_black/contract.algo.ts:99
     // ensure(txn.receiver === this.revenueAddress.value, 'ERR:PAYRCV')
     ==
-    // smart_contracts/ff_black/contract.algo.ts:182
+    // smart_contracts/ff_black/contract.algo.ts:253
     // if (!cond) {
-    bnz buy_after_if_else@40
-    // smart_contracts/ff_black/contract.algo.ts:84
+    bnz buy_after_if_else@43
+    // smart_contracts/ff_black/contract.algo.ts:99
     // ensure(txn.receiver === this.revenueAddress.value, 'ERR:PAYRCV')
     bytec 7 // "ERR:PAYRCV"
-    // smart_contracts/ff_black/contract.algo.ts:183
+    // smart_contracts/ff_black/contract.algo.ts:254
     // log(message)
     log
-    // smart_contracts/ff_black/contract.algo.ts:184
+    // smart_contracts/ff_black/contract.algo.ts:255
     // err()
     err
 
-buy_after_if_else@40:
-    // smart_contracts/ff_black/contract.algo.ts:86
+buy_after_if_else@43:
+    // smart_contracts/ff_black/contract.algo.ts:101
     // ensure(txn.amount >= this.algoPrice.value, 'ERR:UNDERPAY')
     frame_dig -1
     gtxns Amount
     dup
-    frame_bury 4
-    // smart_contracts/ff_black/contract.algo.ts:33
+    frame_bury 5
+    // smart_contracts/ff_black/contract.algo.ts:36
     // algoPrice = GlobalState<uint64>({ initialValue: 0 })
     intc_0 // 0
-    bytec_0 // "algoPrice"
+    bytec_1 // "algoPrice"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:86
+    // smart_contracts/ff_black/contract.algo.ts:101
     // ensure(txn.amount >= this.algoPrice.value, 'ERR:UNDERPAY')
     >=
-    // smart_contracts/ff_black/contract.algo.ts:182
+    // smart_contracts/ff_black/contract.algo.ts:253
     // if (!cond) {
-    bnz buy_after_if_else@44
-    // smart_contracts/ff_black/contract.algo.ts:86
+    bnz buy_after_if_else@47
+    // smart_contracts/ff_black/contract.algo.ts:101
     // ensure(txn.amount >= this.algoPrice.value, 'ERR:UNDERPAY')
     bytec 8 // "ERR:UNDERPAY"
-    // smart_contracts/ff_black/contract.algo.ts:183
+    // smart_contracts/ff_black/contract.algo.ts:254
     // log(message)
     log
-    // smart_contracts/ff_black/contract.algo.ts:184
+    // smart_contracts/ff_black/contract.algo.ts:255
     // err()
     err
 
-buy_after_if_else@44:
-    // smart_contracts/ff_black/contract.algo.ts:33
+buy_after_if_else@47:
+    // smart_contracts/ff_black/contract.algo.ts:36
     // algoPrice = GlobalState<uint64>({ initialValue: 0 })
     intc_0 // 0
-    bytec_0 // "algoPrice"
+    bytec_1 // "algoPrice"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:88
+    // smart_contracts/ff_black/contract.algo.ts:103
     // ensure(txn.amount % this.algoPrice.value === 0, 'ERR:OVERPAY')
-    frame_dig 4
+    frame_dig 5
     swap
     %
-    // smart_contracts/ff_black/contract.algo.ts:182
+    // smart_contracts/ff_black/contract.algo.ts:253
     // if (!cond) {
-    bz buy_after_if_else@48
-    // smart_contracts/ff_black/contract.algo.ts:88
+    bz buy_after_if_else@51
+    // smart_contracts/ff_black/contract.algo.ts:103
     // ensure(txn.amount % this.algoPrice.value === 0, 'ERR:OVERPAY')
     bytec 9 // "ERR:OVERPAY"
-    // smart_contracts/ff_black/contract.algo.ts:183
+    // smart_contracts/ff_black/contract.algo.ts:254
     // log(message)
     log
-    // smart_contracts/ff_black/contract.algo.ts:184
+    // smart_contracts/ff_black/contract.algo.ts:255
     // err()
     err
 
-buy_after_if_else@48:
-    // smart_contracts/ff_black/contract.algo.ts:33
+buy_after_if_else@51:
+    // smart_contracts/ff_black/contract.algo.ts:36
     // algoPrice = GlobalState<uint64>({ initialValue: 0 })
     intc_0 // 0
-    bytec_0 // "algoPrice"
+    bytec_1 // "algoPrice"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:90
+    // smart_contracts/ff_black/contract.algo.ts:105
     // return txn.amount / this.algoPrice.value
-    frame_dig 4
+    frame_dig 5
     swap
     /
     frame_bury 1
 
-buy_after_inlined_smart_contracts/ff_black/contract.algo.ts::FfBlack.validatePayment@13:
-    // smart_contracts/ff_black/contract.algo.ts:48
+buy_after_inlined_smart_contracts/ff_black/contract.algo.ts::FfBlack.validatePayment@16:
+    // smart_contracts/ff_black/contract.algo.ts:57
     // ensure(this.wl(buyer).exists, 'ERR:NO_WL')
-    frame_dig 5
+    frame_dig 6
     box_len
     bury 1
-    // smart_contracts/ff_black/contract.algo.ts:182
+    // smart_contracts/ff_black/contract.algo.ts:253
     // if (!cond) {
-    bnz buy_after_if_else@16
-    // smart_contracts/ff_black/contract.algo.ts:48
+    bnz buy_after_if_else@19
+    // smart_contracts/ff_black/contract.algo.ts:57
     // ensure(this.wl(buyer).exists, 'ERR:NO_WL')
     pushbytes "ERR:NO_WL"
-    // smart_contracts/ff_black/contract.algo.ts:183
+    // smart_contracts/ff_black/contract.algo.ts:254
     // log(message)
     log
-    // smart_contracts/ff_black/contract.algo.ts:184
+    // smart_contracts/ff_black/contract.algo.ts:255
     // err()
     err
 
-buy_after_if_else@16:
-    // smart_contracts/ff_black/contract.algo.ts:49
-    // const remaining = this.wl(buyer).value
-    frame_dig 5
+buy_after_if_else@19:
+    // smart_contracts/ff_black/contract.algo.ts:58
+    // const quota = this.wl(buyer).value
+    frame_dig 6
     box_get
     swap
     btoi
@@ -372,37 +406,42 @@ buy_after_if_else@16:
     frame_bury 2
     swap
     assert // Box must have value
-    // smart_contracts/ff_black/contract.algo.ts:50
-    // ensure(remaining >= qty, 'ERR:QUOTA')
+    // smart_contracts/ff_black/contract.algo.ts:59
+    // ensure(quota >= qty, 'ERR:QUOTA')
     frame_dig 1
     >=
-    // smart_contracts/ff_black/contract.algo.ts:182
+    // smart_contracts/ff_black/contract.algo.ts:253
     // if (!cond) {
-    bnz buy_after_if_else@20
-    // smart_contracts/ff_black/contract.algo.ts:50
-    // ensure(remaining >= qty, 'ERR:QUOTA')
+    bnz buy_after_if_else@23
+    // smart_contracts/ff_black/contract.algo.ts:59
+    // ensure(quota >= qty, 'ERR:QUOTA')
     pushbytes "ERR:QUOTA"
-    // smart_contracts/ff_black/contract.algo.ts:183
+    // smart_contracts/ff_black/contract.algo.ts:254
     // log(message)
     log
-    // smart_contracts/ff_black/contract.algo.ts:184
+    // smart_contracts/ff_black/contract.algo.ts:255
     // err()
     err
 
-buy_after_if_else@20:
-    // smart_contracts/ff_black/contract.algo.ts:51
-    // this.wl(buyer).value = remaining - qty
+buy_after_if_else@23:
+    // smart_contracts/ff_black/contract.algo.ts:60
+    // const remaining: uint64 = quota - qty
     frame_dig 2
     frame_dig 1
-    dup
-    cover 2
     -
-    itob
-    frame_dig 5
     dup
-    uncover 2
-    box_put
-    // smart_contracts/ff_black/contract.algo.ts:54-60
+    frame_bury 3
+    // smart_contracts/ff_black/contract.algo.ts:61
+    // if (remaining === 0) {
+    bnz buy_else_body@2
+    // smart_contracts/ff_black/contract.algo.ts:62
+    // this.wl(buyer).delete()
+    frame_dig 6
+    box_del
+    pop
+
+buy_after_if_else@3:
+    // smart_contracts/ff_black/contract.algo.ts:68-74
     // itxn
     //   .assetTransfer({
     //     xferAsset: sellingAsset,
@@ -411,14 +450,15 @@ buy_after_if_else@20:
     //   })
     //   .submit()
     itxn_begin
-    swap
+    frame_dig 1
     itxn_field AssetAmount
-    dup
-    itxn_field AssetReceiver
     frame_dig 6
     dup
+    itxn_field AssetReceiver
+    frame_dig 7
+    dup
     itxn_field XferAsset
-    // smart_contracts/ff_black/contract.algo.ts:54-59
+    // smart_contracts/ff_black/contract.algo.ts:68-73
     // itxn
     //   .assetTransfer({
     //     xferAsset: sellingAsset,
@@ -429,7 +469,7 @@ buy_after_if_else@20:
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // smart_contracts/ff_black/contract.algo.ts:54-60
+    // smart_contracts/ff_black/contract.algo.ts:68-74
     // itxn
     //   .assetTransfer({
     //     xferAsset: sellingAsset,
@@ -438,12 +478,12 @@ buy_after_if_else@20:
     //   })
     //   .submit()
     itxn_submit
-    // smart_contracts/ff_black/contract.algo.ts:63
+    // smart_contracts/ff_black/contract.algo.ts:77
     // if (!sellingAsset.frozen(buyer)) {
     asset_holding_get AssetFrozen
     assert // account opted into asset
-    bnz buy_after_if_else@4
-    // smart_contracts/ff_black/contract.algo.ts:64-70
+    bnz buy_after_if_else@7
+    // smart_contracts/ff_black/contract.algo.ts:78-84
     // itxn
     //   .assetFreeze({
     //     freezeAsset: sellingAsset,
@@ -452,15 +492,15 @@ buy_after_if_else@20:
     //   })
     //   .submit()
     itxn_begin
-    // smart_contracts/ff_black/contract.algo.ts:68
+    // smart_contracts/ff_black/contract.algo.ts:82
     // frozen: true,
     intc_1 // 1
     itxn_field FreezeAssetFrozen
-    frame_dig 5
-    itxn_field FreezeAssetAccount
     frame_dig 6
+    itxn_field FreezeAssetAccount
+    frame_dig 7
     itxn_field FreezeAsset
-    // smart_contracts/ff_black/contract.algo.ts:64-69
+    // smart_contracts/ff_black/contract.algo.ts:78-83
     // itxn
     //   .assetFreeze({
     //     freezeAsset: sellingAsset,
@@ -471,7 +511,7 @@ buy_after_if_else@20:
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // smart_contracts/ff_black/contract.algo.ts:64-70
+    // smart_contracts/ff_black/contract.algo.ts:78-84
     // itxn
     //   .assetFreeze({
     //     freezeAsset: sellingAsset,
@@ -481,16 +521,26 @@ buy_after_if_else@20:
     //   .submit()
     itxn_submit
 
-buy_after_if_else@4:
+buy_after_if_else@7:
     retsub
 
-buy_after_if_else@8:
-    // smart_contracts/ff_black/contract.algo.ts:91
+buy_else_body@2:
+    // smart_contracts/ff_black/contract.algo.ts:64
+    // this.wl(buyer).value = quota - qty
+    frame_dig 3
+    itob
+    frame_dig 6
+    swap
+    box_put
+    b buy_after_if_else@3
+
+buy_after_if_else@11:
+    // smart_contracts/ff_black/contract.algo.ts:106
     // case TransactionType.AssetTransfer:
     frame_dig 0
     intc_3 // 4
     ==
-    // smart_contracts/ff_black/contract.algo.ts:91-101
+    // smart_contracts/ff_black/contract.algo.ts:106-116
     // case TransactionType.AssetTransfer:
     //   // USDC. Confirm receiver
     //   ensure(txn.assetReceiver === this.revenueAddress.value, 'ERR:PAYRCV')
@@ -502,179 +552,190 @@ buy_after_if_else@8:
     //   ensure(txn.assetAmount % this.assetPrice.value === 0, 'ERR:OVERPAY')
     //   // return number of NFTs to buy
     //   return txn.assetAmount / this.assetPrice.value
-    bz buy_after_if_else@11
-    // smart_contracts/ff_black/contract.algo.ts:93
+    bz buy_after_if_else@14
+    // smart_contracts/ff_black/contract.algo.ts:108
     // ensure(txn.assetReceiver === this.revenueAddress.value, 'ERR:PAYRCV')
     frame_dig -1
     gtxns AssetReceiver
-    // smart_contracts/ff_black/contract.algo.ts:30
+    // smart_contracts/ff_black/contract.algo.ts:32
     // revenueAddress = GlobalState<Account>({ initialValue: Txn.sender })
     intc_0 // 0
-    bytec_2 // "revenueAddress"
+    bytec_3 // "revenueAddress"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:93
+    // smart_contracts/ff_black/contract.algo.ts:108
     // ensure(txn.assetReceiver === this.revenueAddress.value, 'ERR:PAYRCV')
     ==
-    // smart_contracts/ff_black/contract.algo.ts:182
+    // smart_contracts/ff_black/contract.algo.ts:253
     // if (!cond) {
-    bnz buy_after_if_else@24
-    // smart_contracts/ff_black/contract.algo.ts:93
+    bnz buy_after_if_else@27
+    // smart_contracts/ff_black/contract.algo.ts:108
     // ensure(txn.assetReceiver === this.revenueAddress.value, 'ERR:PAYRCV')
     bytec 7 // "ERR:PAYRCV"
-    // smart_contracts/ff_black/contract.algo.ts:183
+    // smart_contracts/ff_black/contract.algo.ts:254
     // log(message)
     log
-    // smart_contracts/ff_black/contract.algo.ts:184
+    // smart_contracts/ff_black/contract.algo.ts:255
     // err()
     err
 
-buy_after_if_else@24:
-    // smart_contracts/ff_black/contract.algo.ts:95
+buy_after_if_else@27:
+    // smart_contracts/ff_black/contract.algo.ts:110
     // ensure(txn.xferAsset === this.purchaseAsset.value, 'ERR:ASSET')
     frame_dig -1
     gtxns XferAsset
-    // smart_contracts/ff_black/contract.algo.ts:34
+    // smart_contracts/ff_black/contract.algo.ts:38
     // purchaseAsset = GlobalState<Asset>({ initialValue: Asset(0) })
     intc_0 // 0
-    bytec 4 // "purchaseAsset"
+    bytec 5 // "purchaseAsset"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:95
+    // smart_contracts/ff_black/contract.algo.ts:110
     // ensure(txn.xferAsset === this.purchaseAsset.value, 'ERR:ASSET')
     ==
-    // smart_contracts/ff_black/contract.algo.ts:182
+    // smart_contracts/ff_black/contract.algo.ts:253
     // if (!cond) {
-    bnz buy_after_if_else@28
-    // smart_contracts/ff_black/contract.algo.ts:95
+    bnz buy_after_if_else@31
+    // smart_contracts/ff_black/contract.algo.ts:110
     // ensure(txn.xferAsset === this.purchaseAsset.value, 'ERR:ASSET')
     pushbytes "ERR:ASSET"
-    // smart_contracts/ff_black/contract.algo.ts:183
+    // smart_contracts/ff_black/contract.algo.ts:254
     // log(message)
     log
-    // smart_contracts/ff_black/contract.algo.ts:184
+    // smart_contracts/ff_black/contract.algo.ts:255
     // err()
     err
 
-buy_after_if_else@28:
-    // smart_contracts/ff_black/contract.algo.ts:97
+buy_after_if_else@31:
+    // smart_contracts/ff_black/contract.algo.ts:112
     // ensure(txn.assetAmount >= this.assetPrice.value, 'ERR:UNDERPAY')
     frame_dig -1
     gtxns AssetAmount
     dup
-    frame_bury 3
-    // smart_contracts/ff_black/contract.algo.ts:35
+    frame_bury 4
+    // smart_contracts/ff_black/contract.algo.ts:40
     // assetPrice = GlobalState<uint64>({ initialValue: 0 })
     intc_0 // 0
-    bytec_1 // "assetPrice"
+    bytec_2 // "assetPrice"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:97
+    // smart_contracts/ff_black/contract.algo.ts:112
     // ensure(txn.assetAmount >= this.assetPrice.value, 'ERR:UNDERPAY')
     >=
-    // smart_contracts/ff_black/contract.algo.ts:182
+    // smart_contracts/ff_black/contract.algo.ts:253
     // if (!cond) {
-    bnz buy_after_if_else@32
-    // smart_contracts/ff_black/contract.algo.ts:97
+    bnz buy_after_if_else@35
+    // smart_contracts/ff_black/contract.algo.ts:112
     // ensure(txn.assetAmount >= this.assetPrice.value, 'ERR:UNDERPAY')
     bytec 8 // "ERR:UNDERPAY"
-    // smart_contracts/ff_black/contract.algo.ts:183
+    // smart_contracts/ff_black/contract.algo.ts:254
     // log(message)
     log
-    // smart_contracts/ff_black/contract.algo.ts:184
+    // smart_contracts/ff_black/contract.algo.ts:255
     // err()
     err
 
-buy_after_if_else@32:
-    // smart_contracts/ff_black/contract.algo.ts:35
+buy_after_if_else@35:
+    // smart_contracts/ff_black/contract.algo.ts:40
     // assetPrice = GlobalState<uint64>({ initialValue: 0 })
     intc_0 // 0
-    bytec_1 // "assetPrice"
+    bytec_2 // "assetPrice"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:99
+    // smart_contracts/ff_black/contract.algo.ts:114
     // ensure(txn.assetAmount % this.assetPrice.value === 0, 'ERR:OVERPAY')
-    frame_dig 3
+    frame_dig 4
     swap
     %
-    // smart_contracts/ff_black/contract.algo.ts:182
+    // smart_contracts/ff_black/contract.algo.ts:253
     // if (!cond) {
-    bz buy_after_if_else@36
-    // smart_contracts/ff_black/contract.algo.ts:99
+    bz buy_after_if_else@39
+    // smart_contracts/ff_black/contract.algo.ts:114
     // ensure(txn.assetAmount % this.assetPrice.value === 0, 'ERR:OVERPAY')
     bytec 9 // "ERR:OVERPAY"
-    // smart_contracts/ff_black/contract.algo.ts:183
+    // smart_contracts/ff_black/contract.algo.ts:254
     // log(message)
     log
-    // smart_contracts/ff_black/contract.algo.ts:184
+    // smart_contracts/ff_black/contract.algo.ts:255
     // err()
     err
 
-buy_after_if_else@36:
-    // smart_contracts/ff_black/contract.algo.ts:35
+buy_after_if_else@39:
+    // smart_contracts/ff_black/contract.algo.ts:40
     // assetPrice = GlobalState<uint64>({ initialValue: 0 })
     intc_0 // 0
-    bytec_1 // "assetPrice"
+    bytec_2 // "assetPrice"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:101
+    // smart_contracts/ff_black/contract.algo.ts:116
     // return txn.assetAmount / this.assetPrice.value
-    frame_dig 3
+    frame_dig 4
     swap
     /
     frame_bury 1
-    // smart_contracts/ff_black/contract.algo.ts:45
+    // smart_contracts/ff_black/contract.algo.ts:54
     // const qty = this.validatePayment(txn)
-    b buy_after_inlined_smart_contracts/ff_black/contract.algo.ts::FfBlack.validatePayment@13
+    b buy_after_inlined_smart_contracts/ff_black/contract.algo.ts::FfBlack.validatePayment@16
 
-buy_after_if_else@11:
-    // smart_contracts/ff_black/contract.algo.ts:103
+buy_after_if_else@14:
+    // smart_contracts/ff_black/contract.algo.ts:118
     // log('ERR:PAYTYPE')
     pushbytes "ERR:PAYTYPE"
     log
-    // smart_contracts/ff_black/contract.algo.ts:104
+    // smart_contracts/ff_black/contract.algo.ts:119
     // err()
     err
 
 
 // smart_contracts/ff_black/contract.algo.ts::FfBlack.unfreeze(account: bytes) -> void:
 unfreeze:
-    // smart_contracts/ff_black/contract.algo.ts:108
+    // smart_contracts/ff_black/contract.algo.ts:128
     // public unfreeze(account: Account) {
     proto 1 0
-    // smart_contracts/ff_black/contract.algo.ts:37
+    // smart_contracts/ff_black/contract.algo.ts:131
+    // if (Global.latestTimestamp < this.unfreezeTime.value) {
+    global LatestTimestamp
+    // smart_contracts/ff_black/contract.algo.ts:42
     // unfreezeTime = GlobalState<uint64>({ initialValue: 0 })
     intc_0 // 0
-    bytec 5 // "unfreezeTime"
-    app_global_get_ex
-    bury 1
-    assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:32
-    // sellingAsset = GlobalState<Asset>({ initialValue: Asset(0) })
-    intc_0 // 0
-    bytec_3 // "sellingAsset"
+    bytec 6 // "unfreezeTime"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:113-119
+    // smart_contracts/ff_black/contract.algo.ts:131
+    // if (Global.latestTimestamp < this.unfreezeTime.value) {
+    <
+    bz unfreeze_after_if_else@2
+    // smart_contracts/ff_black/contract.algo.ts:132
+    // this.ensureAdmin()
+    callsub ensureAdmin
+
+unfreeze_after_if_else@2:
+    // smart_contracts/ff_black/contract.algo.ts:134-140
     // itxn
     //   .assetFreeze({
-    //     freezeAsset: sellingAsset,
+    //     freezeAsset: this.sellingAsset.value,
     //     freezeAccount: account,
     //     frozen: false,
     //   })
     //   .submit()
     itxn_begin
-    // smart_contracts/ff_black/contract.algo.ts:117
+    // smart_contracts/ff_black/contract.algo.ts:34
+    // sellingAsset = GlobalState<Asset>({ initialValue: Asset(0) })
+    intc_0 // 0
+    bytec_0 // "sellingAsset"
+    app_global_get_ex
+    assert // check GlobalState exists
+    // smart_contracts/ff_black/contract.algo.ts:138
     // frozen: false,
     intc_0 // 0
     itxn_field FreezeAssetFrozen
     frame_dig -1
     itxn_field FreezeAssetAccount
     itxn_field FreezeAsset
-    // smart_contracts/ff_black/contract.algo.ts:113-118
+    // smart_contracts/ff_black/contract.algo.ts:134-139
     // itxn
     //   .assetFreeze({
-    //     freezeAsset: sellingAsset,
+    //     freezeAsset: this.sellingAsset.value,
     //     freezeAccount: account,
     //     frozen: false,
     //   })
@@ -682,10 +743,10 @@ unfreeze:
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // smart_contracts/ff_black/contract.algo.ts:113-119
+    // smart_contracts/ff_black/contract.algo.ts:134-140
     // itxn
     //   .assetFreeze({
-    //     freezeAsset: sellingAsset,
+    //     freezeAsset: this.sellingAsset.value,
     //     freezeAccount: account,
     //     frozen: false,
     //   })
@@ -696,13 +757,13 @@ unfreeze:
 
 // smart_contracts/ff_black/contract.algo.ts::FfBlack.addWhitelist(accounts: bytes) -> void:
 addWhitelist:
-    // smart_contracts/ff_black/contract.algo.ts:122
+    // smart_contracts/ff_black/contract.algo.ts:148
     // public addWhitelist(accounts: arc4.Address[]) {
     proto 1 0
-    // smart_contracts/ff_black/contract.algo.ts:123
+    // smart_contracts/ff_black/contract.algo.ts:149
     // this.ensureAdmin()
     callsub ensureAdmin
-    // smart_contracts/ff_black/contract.algo.ts:125
+    // smart_contracts/ff_black/contract.algo.ts:151
     // for (const account of accounts) {
     frame_dig -1
     intc_0 // 0
@@ -710,7 +771,7 @@ addWhitelist:
     intc_0 // 0
 
 addWhitelist_for_header@1:
-    // smart_contracts/ff_black/contract.algo.ts:125
+    // smart_contracts/ff_black/contract.algo.ts:151
     // for (const account of accounts) {
     frame_dig 1
     frame_dig 0
@@ -725,7 +786,7 @@ addWhitelist_for_header@1:
     *
     intc_2 // 32
     extract3 // on error: Index access is out of bounds
-    // smart_contracts/ff_black/contract.algo.ts:126
+    // smart_contracts/ff_black/contract.algo.ts:152
     // this.wl(account.native).value = 5
     pushint 5 // 5
     itob
@@ -741,13 +802,13 @@ addWhitelist_after_for@4:
 
 // smart_contracts/ff_black/contract.algo.ts::FfBlack.removeWhitelist(accounts: bytes) -> void:
 removeWhitelist:
-    // smart_contracts/ff_black/contract.algo.ts:130
+    // smart_contracts/ff_black/contract.algo.ts:160
     // public removeWhitelist(accounts: arc4.Address[]) {
     proto 1 0
-    // smart_contracts/ff_black/contract.algo.ts:131
+    // smart_contracts/ff_black/contract.algo.ts:161
     // this.ensureAdmin()
     callsub ensureAdmin
-    // smart_contracts/ff_black/contract.algo.ts:133
+    // smart_contracts/ff_black/contract.algo.ts:163
     // for (const account of accounts) {
     frame_dig -1
     intc_0 // 0
@@ -755,7 +816,7 @@ removeWhitelist:
     intc_0 // 0
 
 removeWhitelist_for_header@1:
-    // smart_contracts/ff_black/contract.algo.ts:133
+    // smart_contracts/ff_black/contract.algo.ts:163
     // for (const account of accounts) {
     frame_dig 1
     frame_dig 0
@@ -770,7 +831,7 @@ removeWhitelist_for_header@1:
     *
     intc_2 // 32
     extract3 // on error: Index access is out of bounds
-    // smart_contracts/ff_black/contract.algo.ts:134
+    // smart_contracts/ff_black/contract.algo.ts:164
     // this.wl(account.native).delete()
     box_del
     pop
@@ -785,13 +846,25 @@ removeWhitelist_after_for@4:
 
 // smart_contracts/ff_black/contract.algo.ts::FfBlack.optin(asset: uint64) -> void:
 optin:
-    // smart_contracts/ff_black/contract.algo.ts:138
+    // smart_contracts/ff_black/contract.algo.ts:172
     // public optin(asset: Asset) {
     proto 1 0
-    // smart_contracts/ff_black/contract.algo.ts:139
+    // smart_contracts/ff_black/contract.algo.ts:173
     // this.ensureAdmin()
     callsub ensureAdmin
-    // smart_contracts/ff_black/contract.algo.ts:141-146
+    // smart_contracts/ff_black/contract.algo.ts:175
+    // this._optin(asset)
+    frame_dig -1
+    callsub _optin
+    retsub
+
+
+// smart_contracts/ff_black/contract.algo.ts::FfBlack._optin(asset: uint64) -> void:
+_optin:
+    // smart_contracts/ff_black/contract.algo.ts:179
+    // private _optin(asset: Asset) {
+    proto 1 0
+    // smart_contracts/ff_black/contract.algo.ts:180-185
     // itxn
     //   .assetTransfer({
     //     xferAsset: asset,
@@ -799,13 +872,13 @@ optin:
     //   })
     //   .submit()
     itxn_begin
-    // smart_contracts/ff_black/contract.algo.ts:144
+    // smart_contracts/ff_black/contract.algo.ts:183
     // assetReceiver: Global.currentApplicationAddress,
     global CurrentApplicationAddress
     itxn_field AssetReceiver
     frame_dig -1
     itxn_field XferAsset
-    // smart_contracts/ff_black/contract.algo.ts:141-145
+    // smart_contracts/ff_black/contract.algo.ts:180-184
     // itxn
     //   .assetTransfer({
     //     xferAsset: asset,
@@ -815,7 +888,7 @@ optin:
     itxn_field TypeEnum
     intc_0 // 0
     itxn_field Fee
-    // smart_contracts/ff_black/contract.algo.ts:141-146
+    // smart_contracts/ff_black/contract.algo.ts:180-185
     // itxn
     //   .assetTransfer({
     //     xferAsset: asset,
@@ -826,188 +899,217 @@ optin:
     retsub
 
 
-// smart_contracts/ff_black/contract.algo.ts::FfBlack.getConfig() -> bytes:
-getConfig:
-    // smart_contracts/ff_black/contract.algo.ts:30
-    // revenueAddress = GlobalState<Account>({ initialValue: Txn.sender })
-    intc_0 // 0
-    bytec_2 // "revenueAddress"
-    app_global_get_ex
-    assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:32
-    // sellingAsset = GlobalState<Asset>({ initialValue: Asset(0) })
-    intc_0 // 0
-    bytec_3 // "sellingAsset"
-    app_global_get_ex
-    assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:178
-    // return new UintN64(value)
-    itob
-    // smart_contracts/ff_black/contract.algo.ts:33
-    // algoPrice = GlobalState<uint64>({ initialValue: 0 })
-    intc_0 // 0
-    bytec_0 // "algoPrice"
-    app_global_get_ex
-    assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:178
-    // return new UintN64(value)
-    itob
-    // smart_contracts/ff_black/contract.algo.ts:34
-    // purchaseAsset = GlobalState<Asset>({ initialValue: Asset(0) })
-    intc_0 // 0
-    bytec 4 // "purchaseAsset"
-    app_global_get_ex
-    assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:178
-    // return new UintN64(value)
-    itob
-    // smart_contracts/ff_black/contract.algo.ts:35
-    // assetPrice = GlobalState<uint64>({ initialValue: 0 })
-    intc_0 // 0
-    bytec_1 // "assetPrice"
-    app_global_get_ex
-    assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:178
-    // return new UintN64(value)
-    itob
-    // smart_contracts/ff_black/contract.algo.ts:37
-    // unfreezeTime = GlobalState<uint64>({ initialValue: 0 })
-    intc_0 // 0
-    bytec 5 // "unfreezeTime"
-    app_global_get_ex
-    assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:178
-    // return new UintN64(value)
-    itob
-    // smart_contracts/ff_black/contract.algo.ts:151-158
-    // return new ContractConfig({
-    //   revenueAddress: new Address(this.revenueAddress.value),
-    //   sellingAsset: au64(this.sellingAsset.value.id),
-    //   algoPrice: au64(this.algoPrice.value),
-    //   purchaseAsset: au64(this.purchaseAsset.value.id),
-    //   assetPrice: au64(this.assetPrice.value),
-    //   unfreezeTime: au64(this.unfreezeTime.value),
-    // })
-    uncover 5
-    uncover 5
-    concat
-    uncover 4
-    concat
-    uncover 3
-    concat
-    uncover 2
-    concat
-    swap
-    concat
-    retsub
-
-
 // smart_contracts/ff_black/contract.algo.ts::FfBlack.setConfig(config: bytes) -> void:
 setConfig:
-    // smart_contracts/ff_black/contract.algo.ts:161
+    // smart_contracts/ff_black/contract.algo.ts:192
     // public setConfig(config: ContractConfig) {
     proto 1 0
-    // smart_contracts/ff_black/contract.algo.ts:162
+    // smart_contracts/ff_black/contract.algo.ts:193
     // this.ensureAdmin()
     callsub ensureAdmin
-    // smart_contracts/ff_black/contract.algo.ts:164
+    // smart_contracts/ff_black/contract.algo.ts:195
     // this.revenueAddress.value = config.revenueAddress.native
     frame_dig -1
     extract 0 32 // on error: Index access is out of bounds
-    // smart_contracts/ff_black/contract.algo.ts:30
+    // smart_contracts/ff_black/contract.algo.ts:32
     // revenueAddress = GlobalState<Account>({ initialValue: Txn.sender })
-    bytec_2 // "revenueAddress"
-    // smart_contracts/ff_black/contract.algo.ts:164
+    bytec_3 // "revenueAddress"
+    // smart_contracts/ff_black/contract.algo.ts:195
     // this.revenueAddress.value = config.revenueAddress.native
     swap
     app_global_put
-    // smart_contracts/ff_black/contract.algo.ts:165
+    // smart_contracts/ff_black/contract.algo.ts:196
     // this.sellingAsset.value = Asset(config.sellingAsset.native)
     frame_dig -1
     intc_2 // 32
     extract_uint64
-    // smart_contracts/ff_black/contract.algo.ts:32
+    // smart_contracts/ff_black/contract.algo.ts:34
     // sellingAsset = GlobalState<Asset>({ initialValue: Asset(0) })
-    bytec_3 // "sellingAsset"
-    // smart_contracts/ff_black/contract.algo.ts:165
+    bytec_0 // "sellingAsset"
+    // smart_contracts/ff_black/contract.algo.ts:196
     // this.sellingAsset.value = Asset(config.sellingAsset.native)
     swap
     app_global_put
-    // smart_contracts/ff_black/contract.algo.ts:166
+    // smart_contracts/ff_black/contract.algo.ts:197
     // this.algoPrice.value = config.algoPrice.native
     frame_dig -1
     pushint 40 // 40
     extract_uint64
-    // smart_contracts/ff_black/contract.algo.ts:33
+    // smart_contracts/ff_black/contract.algo.ts:36
     // algoPrice = GlobalState<uint64>({ initialValue: 0 })
-    bytec_0 // "algoPrice"
-    // smart_contracts/ff_black/contract.algo.ts:166
+    bytec_1 // "algoPrice"
+    // smart_contracts/ff_black/contract.algo.ts:197
     // this.algoPrice.value = config.algoPrice.native
     swap
     app_global_put
-    // smart_contracts/ff_black/contract.algo.ts:167
+    // smart_contracts/ff_black/contract.algo.ts:198
     // this.purchaseAsset.value = Asset(config.purchaseAsset.native)
     frame_dig -1
     pushint 48 // 48
     extract_uint64
-    // smart_contracts/ff_black/contract.algo.ts:34
+    // smart_contracts/ff_black/contract.algo.ts:38
     // purchaseAsset = GlobalState<Asset>({ initialValue: Asset(0) })
-    bytec 4 // "purchaseAsset"
-    // smart_contracts/ff_black/contract.algo.ts:167
+    bytec 5 // "purchaseAsset"
+    // smart_contracts/ff_black/contract.algo.ts:198
     // this.purchaseAsset.value = Asset(config.purchaseAsset.native)
     swap
     app_global_put
-    // smart_contracts/ff_black/contract.algo.ts:168
+    // smart_contracts/ff_black/contract.algo.ts:199
     // this.assetPrice.value = config.assetPrice.native
     frame_dig -1
     pushint 56 // 56
     extract_uint64
-    // smart_contracts/ff_black/contract.algo.ts:35
+    // smart_contracts/ff_black/contract.algo.ts:40
     // assetPrice = GlobalState<uint64>({ initialValue: 0 })
-    bytec_1 // "assetPrice"
-    // smart_contracts/ff_black/contract.algo.ts:168
+    bytec_2 // "assetPrice"
+    // smart_contracts/ff_black/contract.algo.ts:199
     // this.assetPrice.value = config.assetPrice.native
     swap
     app_global_put
-    // smart_contracts/ff_black/contract.algo.ts:169
+    // smart_contracts/ff_black/contract.algo.ts:200
     // this.unfreezeTime.value = config.unfreezeTime.native
     frame_dig -1
     pushint 64 // 64
     extract_uint64
-    // smart_contracts/ff_black/contract.algo.ts:37
+    // smart_contracts/ff_black/contract.algo.ts:42
     // unfreezeTime = GlobalState<uint64>({ initialValue: 0 })
-    bytec 5 // "unfreezeTime"
-    // smart_contracts/ff_black/contract.algo.ts:169
+    bytec 6 // "unfreezeTime"
+    // smart_contracts/ff_black/contract.algo.ts:200
     // this.unfreezeTime.value = config.unfreezeTime.native
     swap
     app_global_put
+    // smart_contracts/ff_black/contract.algo.ts:34
+    // sellingAsset = GlobalState<Asset>({ initialValue: Asset(0) })
+    intc_0 // 0
+    bytec_0 // "sellingAsset"
+    app_global_get_ex
+    assert // check GlobalState exists
+    // smart_contracts/ff_black/contract.algo.ts:202
+    // this._optin(this.sellingAsset.value)
+    callsub _optin
+    retsub
+
+
+// smart_contracts/ff_black/contract.algo.ts::FfBlack.changeAdmin(newAdmin: bytes) -> void:
+changeAdmin:
+    // smart_contracts/ff_black/contract.algo.ts:209
+    // public changeAdmin(newAdmin: Account) {
+    proto 1 0
+    // smart_contracts/ff_black/contract.algo.ts:210
+    // this.ensureAdmin()
+    callsub ensureAdmin
+    // smart_contracts/ff_black/contract.algo.ts:30
+    // admin = GlobalState<Account>({ initialValue: Txn.sender })
+    bytec 4 // "admin"
+    // smart_contracts/ff_black/contract.algo.ts:212
+    // this.admin.value = newAdmin
+    frame_dig -1
+    app_global_put
+    retsub
+
+
+// smart_contracts/ff_black/contract.algo.ts::FfBlack.assetCloseout(asset: uint64) -> void:
+assetCloseout:
+    // smart_contracts/ff_black/contract.algo.ts:219
+    // public assetCloseout(asset: Asset) {
+    proto 1 0
+    // smart_contracts/ff_black/contract.algo.ts:220
+    // this.ensureAdmin()
+    callsub ensureAdmin
+    // smart_contracts/ff_black/contract.algo.ts:222-227
+    // itxn
+    //   .assetTransfer({
+    //     xferAsset: asset,
+    //     assetCloseTo: Txn.sender,
+    //   })
+    //   .submit()
+    itxn_begin
+    // smart_contracts/ff_black/contract.algo.ts:225
+    // assetCloseTo: Txn.sender,
+    txn Sender
+    itxn_field AssetCloseTo
+    frame_dig -1
+    itxn_field XferAsset
+    // smart_contracts/ff_black/contract.algo.ts:222-226
+    // itxn
+    //   .assetTransfer({
+    //     xferAsset: asset,
+    //     assetCloseTo: Txn.sender,
+    //   })
+    intc_3 // 4
+    itxn_field TypeEnum
+    intc_0 // 0
+    itxn_field Fee
+    // smart_contracts/ff_black/contract.algo.ts:222-227
+    // itxn
+    //   .assetTransfer({
+    //     xferAsset: asset,
+    //     assetCloseTo: Txn.sender,
+    //   })
+    //   .submit()
+    itxn_submit
+    retsub
+
+
+// smart_contracts/ff_black/contract.algo.ts::FfBlack.algoCloseout() -> void:
+algoCloseout:
+    // smart_contracts/ff_black/contract.algo.ts:236
+    // this.ensureAdmin()
+    callsub ensureAdmin
+    // smart_contracts/ff_black/contract.algo.ts:238-242
+    // itxn
+    //   .payment({
+    //     closeRemainderTo: Txn.sender,
+    //   })
+    //   .submit()
+    itxn_begin
+    // smart_contracts/ff_black/contract.algo.ts:240
+    // closeRemainderTo: Txn.sender,
+    txn Sender
+    itxn_field CloseRemainderTo
+    // smart_contracts/ff_black/contract.algo.ts:238-241
+    // itxn
+    //   .payment({
+    //     closeRemainderTo: Txn.sender,
+    //   })
+    intc_1 // 1
+    itxn_field TypeEnum
+    intc_0 // 0
+    itxn_field Fee
+    // smart_contracts/ff_black/contract.algo.ts:238-242
+    // itxn
+    //   .payment({
+    //     closeRemainderTo: Txn.sender,
+    //   })
+    //   .submit()
+    itxn_submit
     retsub
 
 
 // smart_contracts/ff_black/contract.algo.ts::FfBlack.ensureAdmin() -> void:
 ensureAdmin:
-    // smart_contracts/ff_black/contract.algo.ts:173
+    // smart_contracts/ff_black/contract.algo.ts:247
     // ensure(Txn.sender === this.admin.value, 'ERR:UNAUTH')
     txn Sender
-    // smart_contracts/ff_black/contract.algo.ts:29
+    // smart_contracts/ff_black/contract.algo.ts:30
     // admin = GlobalState<Account>({ initialValue: Txn.sender })
     intc_0 // 0
-    bytec 6 // "admin"
+    bytec 4 // "admin"
     app_global_get_ex
     assert // check GlobalState exists
-    // smart_contracts/ff_black/contract.algo.ts:173
+    // smart_contracts/ff_black/contract.algo.ts:247
     // ensure(Txn.sender === this.admin.value, 'ERR:UNAUTH')
     ==
-    // smart_contracts/ff_black/contract.algo.ts:182
+    // smart_contracts/ff_black/contract.algo.ts:253
     // if (!cond) {
     bnz ensureAdmin_after_if_else@3
-    // smart_contracts/ff_black/contract.algo.ts:173
+    // smart_contracts/ff_black/contract.algo.ts:247
     // ensure(Txn.sender === this.admin.value, 'ERR:UNAUTH')
     pushbytes "ERR:UNAUTH"
-    // smart_contracts/ff_black/contract.algo.ts:183
+    // smart_contracts/ff_black/contract.algo.ts:254
     // log(message)
     log
-    // smart_contracts/ff_black/contract.algo.ts:184
+    // smart_contracts/ff_black/contract.algo.ts:255
     // err()
     err
 

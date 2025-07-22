@@ -3,7 +3,7 @@
   "sources": [
     "/home/bit/code/ff-black/projects/ff-black/smart_contracts/ff_black/contract.algo.ts"
   ],
-  "mappings": "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",
+  "mappings": "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",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -14,7 +14,7 @@
       "op": "intcblock 0 1 32 4"
     },
     "7": {
-      "op": "bytecblock \"algoPrice\" \"assetPrice\" \"revenueAddress\" \"sellingAsset\" \"purchaseAsset\" \"unfreezeTime\" \"admin\" \"ERR:PAYRCV\" \"ERR:UNDERPAY\" \"ERR:OVERPAY\""
+      "op": "bytecblock \"sellingAsset\" \"algoPrice\" \"assetPrice\" \"revenueAddress\" \"admin\" \"purchaseAsset\" \"unfreezeTime\" \"ERR:PAYRCV\" \"ERR:UNDERPAY\" \"ERR:OVERPAY\""
     },
     "127": {
       "op": "txn ApplicationID",
@@ -30,7 +30,7 @@
       "stack_out": []
     },
     "132": {
-      "op": "bytec 6 // \"admin\"",
+      "op": "bytec 4 // \"admin\"",
       "defined_out": [
         "\"admin\""
       ],
@@ -54,7 +54,7 @@
       "stack_out": []
     },
     "137": {
-      "op": "bytec_2 // \"revenueAddress\"",
+      "op": "bytec_3 // \"revenueAddress\"",
       "defined_out": [
         "\"revenueAddress\""
       ],
@@ -78,7 +78,7 @@
       "stack_out": []
     },
     "141": {
-      "op": "bytec_3 // \"sellingAsset\"",
+      "op": "bytec_0 // \"sellingAsset\"",
       "defined_out": [
         "\"sellingAsset\""
       ],
@@ -102,7 +102,7 @@
       "stack_out": []
     },
     "144": {
-      "op": "bytec_0 // \"algoPrice\"",
+      "op": "bytec_1 // \"algoPrice\"",
       "defined_out": [
         "\"algoPrice\""
       ],
@@ -122,7 +122,7 @@
       "stack_out": []
     },
     "147": {
-      "op": "bytec 4 // \"purchaseAsset\"",
+      "op": "bytec 5 // \"purchaseAsset\"",
       "defined_out": [
         "\"purchaseAsset\""
       ],
@@ -142,7 +142,7 @@
       "stack_out": []
     },
     "151": {
-      "op": "bytec_1 // \"assetPrice\"",
+      "op": "bytec_2 // \"assetPrice\"",
       "defined_out": [
         "\"assetPrice\""
       ],
@@ -162,7 +162,7 @@
       "stack_out": []
     },
     "154": {
-      "op": "bytec 5 // \"unfreezeTime\"",
+      "op": "bytec 6 // \"unfreezeTime\"",
       "defined_out": [
         "\"unfreezeTime\""
       ],
@@ -193,15 +193,17 @@
       ]
     },
     "160": {
-      "op": "bz main_bare_routing@14",
+      "op": "bz main_bare_routing@16",
       "stack_out": []
     },
     "163": {
-      "op": "pushbytess 0xc4661a8e 0x79728b42 0xa0ef0f77 0x59e88229 0x7f19f9d4 0x0e665b9b 0xc8c8bb1f // method \"buy(txn)void\", method \"unfreeze(account)void\", method \"addWhitelist(address[])void\", method \"removeWhitelist(address[])void\", method \"optin(asset)void\", method \"getConfig()(address,uint64,uint64,uint64,uint64,uint64)\", method \"setConfig((address,uint64,uint64,uint64,uint64,uint64))void\"",
+      "op": "pushbytess 0xc4661a8e 0x79728b42 0xa0ef0f77 0x59e88229 0x7f19f9d4 0xc8c8bb1f 0x3f2c5d16 0x7d136df0 0xbd2af9da // method \"buy(txn)void\", method \"unfreeze(account)void\", method \"addWhitelist(address[])void\", method \"removeWhitelist(address[])void\", method \"optin(asset)void\", method \"setConfig((address,uint64,uint64,uint64,uint64,uint64))void\", method \"changeAdmin(account)void\", method \"assetCloseout(asset)void\", method \"algoCloseout()void\"",
       "defined_out": [
         "Method(addWhitelist(address[])void)",
+        "Method(algoCloseout()void)",
+        "Method(assetCloseout(asset)void)",
         "Method(buy(txn)void)",
-        "Method(getConfig()(address,uint64,uint64,uint64,uint64,uint64))",
+        "Method(changeAdmin(account)void)",
         "Method(optin(asset)void)",
         "Method(removeWhitelist(address[])void)",
         "Method(setConfig((address,uint64,uint64,uint64,uint64,uint64))void)",
@@ -213,16 +215,20 @@
         "Method(addWhitelist(address[])void)",
         "Method(removeWhitelist(address[])void)",
         "Method(optin(asset)void)",
-        "Method(getConfig()(address,uint64,uint64,uint64,uint64,uint64))",
-        "Method(setConfig((address,uint64,uint64,uint64,uint64,uint64))void)"
+        "Method(setConfig((address,uint64,uint64,uint64,uint64,uint64))void)",
+        "Method(changeAdmin(account)void)",
+        "Method(assetCloseout(asset)void)",
+        "Method(algoCloseout()void)"
       ]
     },
-    "200": {
+    "210": {
       "op": "txna ApplicationArgs 0",
       "defined_out": [
         "Method(addWhitelist(address[])void)",
+        "Method(algoCloseout()void)",
+        "Method(assetCloseout(asset)void)",
         "Method(buy(txn)void)",
-        "Method(getConfig()(address,uint64,uint64,uint64,uint64,uint64))",
+        "Method(changeAdmin(account)void)",
         "Method(optin(asset)void)",
         "Method(removeWhitelist(address[])void)",
         "Method(setConfig((address,uint64,uint64,uint64,uint64,uint64))void)",
@@ -235,17 +241,19 @@
         "Method(addWhitelist(address[])void)",
         "Method(removeWhitelist(address[])void)",
         "Method(optin(asset)void)",
-        "Method(getConfig()(address,uint64,uint64,uint64,uint64,uint64))",
         "Method(setConfig((address,uint64,uint64,uint64,uint64,uint64))void)",
+        "Method(changeAdmin(account)void)",
+        "Method(assetCloseout(asset)void)",
+        "Method(algoCloseout()void)",
         "tmp%2#0"
       ]
     },
-    "203": {
-      "op": "match main_buy_route@5 main_unfreeze_route@6 main_addWhitelist_route@7 main_removeWhitelist_route@8 main_optin_route@9 main_getConfig_route@10 main_setConfig_route@11",
+    "213": {
+      "op": "match main_buy_route@5 main_unfreeze_route@6 main_addWhitelist_route@7 main_removeWhitelist_route@8 main_optin_route@9 main_setConfig_route@10 main_changeAdmin_route@11 main_assetCloseout_route@12 main_algoCloseout_route@13",
       "stack_out": []
     },
-    "219": {
-      "block": "main_after_if_else@18",
+    "233": {
+      "block": "main_after_if_else@20",
       "stack_in": [],
       "op": "intc_0 // 0",
       "defined_out": [
@@ -255,37 +263,200 @@
         "tmp%0#0"
       ]
     },
-    "220": {
+    "234": {
       "op": "return",
       "stack_out": []
     },
-    "221": {
-      "block": "main_setConfig_route@11",
+    "235": {
+      "block": "main_algoCloseout_route@13",
       "stack_in": [],
       "op": "txn OnCompletion",
       "defined_out": [
-        "tmp%34#0"
+        "tmp%44#0"
       ],
       "stack_out": [
-        "tmp%34#0"
+        "tmp%44#0"
       ]
     },
-    "223": {
+    "237": {
       "op": "!",
       "defined_out": [
-        "tmp%35#0"
+        "tmp%45#0"
       ],
       "stack_out": [
-        "tmp%35#0"
+        "tmp%45#0"
       ]
     },
-    "224": {
+    "238": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "225": {
+    "239": {
       "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%46#0"
+      ],
+      "stack_out": [
+        "tmp%46#0"
+      ]
+    },
+    "241": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "242": {
+      "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.algoCloseout",
+      "op": "callsub algoCloseout"
+    },
+    "245": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "246": {
+      "op": "return",
+      "stack_out": []
+    },
+    "247": {
+      "block": "main_assetCloseout_route@12",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%38#0"
+      ],
+      "stack_out": [
+        "tmp%38#0"
+      ]
+    },
+    "249": {
+      "op": "!",
+      "defined_out": [
+        "tmp%39#0"
+      ],
+      "stack_out": [
+        "tmp%39#0"
+      ]
+    },
+    "250": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "251": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%40#0"
+      ],
+      "stack_out": [
+        "tmp%40#0"
+      ]
+    },
+    "253": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "254": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%3#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%3#0"
+      ]
+    },
+    "257": {
+      "op": "btoi",
+      "defined_out": [
+        "tmp%42#0"
+      ],
+      "stack_out": [
+        "tmp%42#0"
+      ]
+    },
+    "258": {
+      "op": "txnas Assets",
+      "defined_out": [
+        "tmp%43#0"
+      ],
+      "stack_out": [
+        "tmp%43#0"
+      ]
+    },
+    "260": {
+      "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.assetCloseout",
+      "op": "callsub assetCloseout",
+      "stack_out": []
+    },
+    "263": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "264": {
+      "op": "return",
+      "stack_out": []
+    },
+    "265": {
+      "block": "main_changeAdmin_route@11",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%32#0"
+      ],
+      "stack_out": [
+        "tmp%32#0"
+      ]
+    },
+    "267": {
+      "op": "!",
+      "defined_out": [
+        "tmp%33#0"
+      ],
+      "stack_out": [
+        "tmp%33#0"
+      ]
+    },
+    "268": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "269": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%34#0"
+      ],
+      "stack_out": [
+        "tmp%34#0"
+      ]
+    },
+    "271": {
+      "error": "can only call when not creating",
+      "op": "assert // can only call when not creating",
+      "stack_out": []
+    },
+    "272": {
+      "op": "txna ApplicationArgs 1",
+      "defined_out": [
+        "reinterpret_bytes[1]%2#0"
+      ],
+      "stack_out": [
+        "reinterpret_bytes[1]%2#0"
+      ]
+    },
+    "275": {
+      "op": "btoi",
       "defined_out": [
         "tmp%36#0"
       ],
@@ -293,12 +464,73 @@
         "tmp%36#0"
       ]
     },
-    "227": {
+    "276": {
+      "op": "txnas Accounts",
+      "defined_out": [
+        "tmp%37#0"
+      ],
+      "stack_out": [
+        "tmp%37#0"
+      ]
+    },
+    "278": {
+      "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.changeAdmin",
+      "op": "callsub changeAdmin",
+      "stack_out": []
+    },
+    "281": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "282": {
+      "op": "return",
+      "stack_out": []
+    },
+    "283": {
+      "block": "main_setConfig_route@10",
+      "stack_in": [],
+      "op": "txn OnCompletion",
+      "defined_out": [
+        "tmp%28#0"
+      ],
+      "stack_out": [
+        "tmp%28#0"
+      ]
+    },
+    "285": {
+      "op": "!",
+      "defined_out": [
+        "tmp%29#0"
+      ],
+      "stack_out": [
+        "tmp%29#0"
+      ]
+    },
+    "286": {
+      "error": "OnCompletion is not NoOp",
+      "op": "assert // OnCompletion is not NoOp",
+      "stack_out": []
+    },
+    "287": {
+      "op": "txn ApplicationID",
+      "defined_out": [
+        "tmp%30#0"
+      ],
+      "stack_out": [
+        "tmp%30#0"
+      ]
+    },
+    "289": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "228": {
+    "290": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[72]%0#0"
@@ -307,12 +539,12 @@
         "reinterpret_bytes[72]%0#0"
       ]
     },
-    "231": {
+    "293": {
       "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.setConfig",
       "op": "callsub setConfig",
       "stack_out": []
     },
-    "234": {
+    "296": {
       "op": "intc_1 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -321,104 +553,11 @@
         "tmp%0#0"
       ]
     },
-    "235": {
+    "297": {
       "op": "return",
       "stack_out": []
     },
-    "236": {
-      "block": "main_getConfig_route@10",
-      "stack_in": [],
-      "op": "txn OnCompletion",
-      "defined_out": [
-        "tmp%28#0"
-      ],
-      "stack_out": [
-        "tmp%28#0"
-      ]
-    },
-    "238": {
-      "op": "!",
-      "defined_out": [
-        "tmp%29#0"
-      ],
-      "stack_out": [
-        "tmp%29#0"
-      ]
-    },
-    "239": {
-      "error": "OnCompletion is not NoOp",
-      "op": "assert // OnCompletion is not NoOp",
-      "stack_out": []
-    },
-    "240": {
-      "op": "txn ApplicationID",
-      "defined_out": [
-        "tmp%30#0"
-      ],
-      "stack_out": [
-        "tmp%30#0"
-      ]
-    },
-    "242": {
-      "error": "can only call when not creating",
-      "op": "assert // can only call when not creating",
-      "stack_out": []
-    },
-    "243": {
-      "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.getConfig",
-      "op": "callsub getConfig",
-      "defined_out": [
-        "tmp%32#0"
-      ],
-      "stack_out": [
-        "tmp%32#0"
-      ]
-    },
-    "246": {
-      "op": "pushbytes 0x151f7c75",
-      "defined_out": [
-        "0x151f7c75",
-        "tmp%32#0"
-      ],
-      "stack_out": [
-        "tmp%32#0",
-        "0x151f7c75"
-      ]
-    },
-    "252": {
-      "op": "swap",
-      "stack_out": [
-        "0x151f7c75",
-        "tmp%32#0"
-      ]
-    },
-    "253": {
-      "op": "concat",
-      "defined_out": [
-        "tmp%33#0"
-      ],
-      "stack_out": [
-        "tmp%33#0"
-      ]
-    },
-    "254": {
-      "op": "log",
-      "stack_out": []
-    },
-    "255": {
-      "op": "intc_1 // 1",
-      "defined_out": [
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "tmp%0#0"
-      ]
-    },
-    "256": {
-      "op": "return",
-      "stack_out": []
-    },
-    "257": {
+    "298": {
       "block": "main_optin_route@9",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -429,7 +568,7 @@
         "tmp%22#0"
       ]
     },
-    "259": {
+    "300": {
       "op": "!",
       "defined_out": [
         "tmp%23#0"
@@ -438,12 +577,12 @@
         "tmp%23#0"
       ]
     },
-    "260": {
+    "301": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "261": {
+    "302": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%24#0"
@@ -452,12 +591,12 @@
         "tmp%24#0"
       ]
     },
-    "263": {
+    "304": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "264": {
+    "305": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[1]%1#0"
@@ -466,7 +605,7 @@
         "reinterpret_bytes[1]%1#0"
       ]
     },
-    "267": {
+    "308": {
       "op": "btoi",
       "defined_out": [
         "tmp%26#0"
@@ -475,7 +614,7 @@
         "tmp%26#0"
       ]
     },
-    "268": {
+    "309": {
       "op": "txnas Assets",
       "defined_out": [
         "tmp%27#0"
@@ -484,12 +623,12 @@
         "tmp%27#0"
       ]
     },
-    "270": {
+    "311": {
       "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.optin",
       "op": "callsub optin",
       "stack_out": []
     },
-    "273": {
+    "314": {
       "op": "intc_1 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -498,11 +637,11 @@
         "tmp%0#0"
       ]
     },
-    "274": {
+    "315": {
       "op": "return",
       "stack_out": []
     },
-    "275": {
+    "316": {
       "block": "main_removeWhitelist_route@8",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -513,7 +652,7 @@
         "tmp%18#0"
       ]
     },
-    "277": {
+    "318": {
       "op": "!",
       "defined_out": [
         "tmp%19#0"
@@ -522,12 +661,12 @@
         "tmp%19#0"
       ]
     },
-    "278": {
+    "319": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "279": {
+    "320": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%20#0"
@@ -536,12 +675,12 @@
         "tmp%20#0"
       ]
     },
-    "281": {
+    "322": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "282": {
+    "323": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[32][]%1#0"
@@ -550,12 +689,12 @@
         "reinterpret_bytes[32][]%1#0"
       ]
     },
-    "285": {
+    "326": {
       "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.removeWhitelist",
       "op": "callsub removeWhitelist",
       "stack_out": []
     },
-    "288": {
+    "329": {
       "op": "intc_1 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -564,11 +703,11 @@
         "tmp%0#0"
       ]
     },
-    "289": {
+    "330": {
       "op": "return",
       "stack_out": []
     },
-    "290": {
+    "331": {
       "block": "main_addWhitelist_route@7",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -579,7 +718,7 @@
         "tmp%14#0"
       ]
     },
-    "292": {
+    "333": {
       "op": "!",
       "defined_out": [
         "tmp%15#0"
@@ -588,12 +727,12 @@
         "tmp%15#0"
       ]
     },
-    "293": {
+    "334": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "294": {
+    "335": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%16#0"
@@ -602,12 +741,12 @@
         "tmp%16#0"
       ]
     },
-    "296": {
+    "337": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "297": {
+    "338": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[32][]%0#0"
@@ -616,12 +755,12 @@
         "reinterpret_bytes[32][]%0#0"
       ]
     },
-    "300": {
+    "341": {
       "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.addWhitelist",
       "op": "callsub addWhitelist",
       "stack_out": []
     },
-    "303": {
+    "344": {
       "op": "intc_1 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -630,11 +769,11 @@
         "tmp%0#0"
       ]
     },
-    "304": {
+    "345": {
       "op": "return",
       "stack_out": []
     },
-    "305": {
+    "346": {
       "block": "main_unfreeze_route@6",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -645,7 +784,7 @@
         "tmp%8#0"
       ]
     },
-    "307": {
+    "348": {
       "op": "!",
       "defined_out": [
         "tmp%9#0"
@@ -654,12 +793,12 @@
         "tmp%9#0"
       ]
     },
-    "308": {
+    "349": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "309": {
+    "350": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%10#0"
@@ -668,12 +807,12 @@
         "tmp%10#0"
       ]
     },
-    "311": {
+    "352": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "312": {
+    "353": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "reinterpret_bytes[1]%0#0"
@@ -682,7 +821,7 @@
         "reinterpret_bytes[1]%0#0"
       ]
     },
-    "315": {
+    "356": {
       "op": "btoi",
       "defined_out": [
         "tmp%12#0"
@@ -691,7 +830,7 @@
         "tmp%12#0"
       ]
     },
-    "316": {
+    "357": {
       "op": "txnas Accounts",
       "defined_out": [
         "tmp%13#0"
@@ -700,12 +839,12 @@
         "tmp%13#0"
       ]
     },
-    "318": {
+    "359": {
       "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.unfreeze",
       "op": "callsub unfreeze",
       "stack_out": []
     },
-    "321": {
+    "362": {
       "op": "intc_1 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -714,11 +853,11 @@
         "tmp%0#0"
       ]
     },
-    "322": {
+    "363": {
       "op": "return",
       "stack_out": []
     },
-    "323": {
+    "364": {
       "block": "main_buy_route@5",
       "stack_in": [],
       "op": "txn OnCompletion",
@@ -729,7 +868,7 @@
         "tmp%3#0"
       ]
     },
-    "325": {
+    "366": {
       "op": "!",
       "defined_out": [
         "tmp%4#0"
@@ -738,12 +877,12 @@
         "tmp%4#0"
       ]
     },
-    "326": {
+    "367": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": []
     },
-    "327": {
+    "368": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%5#0"
@@ -752,12 +891,12 @@
         "tmp%5#0"
       ]
     },
-    "329": {
+    "370": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": []
     },
-    "330": {
+    "371": {
       "op": "txn GroupIndex",
       "defined_out": [
         "tmp%7#0"
@@ -766,7 +905,7 @@
         "tmp%7#0"
       ]
     },
-    "332": {
+    "373": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -777,7 +916,7 @@
         "1"
       ]
     },
-    "333": {
+    "374": {
       "op": "-",
       "defined_out": [
         "gtxn_idx%0#0"
@@ -786,12 +925,12 @@
         "gtxn_idx%0#0"
       ]
     },
-    "334": {
+    "375": {
       "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.buy",
       "op": "callsub buy",
       "stack_out": []
     },
-    "337": {
+    "378": {
       "op": "intc_1 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -800,49 +939,49 @@
         "tmp%0#0"
       ]
     },
-    "338": {
+    "379": {
       "op": "return",
       "stack_out": []
     },
-    "339": {
-      "block": "main_bare_routing@14",
+    "380": {
+      "block": "main_bare_routing@16",
       "stack_in": [],
       "op": "txn OnCompletion",
       "defined_out": [
-        "tmp%38#0"
+        "tmp%48#0"
       ],
       "stack_out": [
-        "tmp%38#0"
+        "tmp%48#0"
       ]
     },
-    "341": {
-      "op": "bnz main_after_if_else@18",
+    "382": {
+      "op": "bnz main_after_if_else@20",
       "stack_out": []
     },
-    "344": {
+    "385": {
       "op": "txn ApplicationID",
       "defined_out": [
-        "tmp%39#0"
+        "tmp%49#0"
       ],
       "stack_out": [
-        "tmp%39#0"
+        "tmp%49#0"
       ]
     },
-    "346": {
+    "387": {
       "op": "!",
       "defined_out": [
-        "tmp%40#0"
+        "tmp%50#0"
       ],
       "stack_out": [
-        "tmp%40#0"
+        "tmp%50#0"
       ]
     },
-    "347": {
+    "388": {
       "error": "can only call when creating",
       "op": "assert // can only call when creating",
       "stack_out": []
     },
-    "348": {
+    "389": {
       "op": "intc_1 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -851,11 +990,11 @@
         "tmp%0#0"
       ]
     },
-    "349": {
+    "390": {
       "op": "return",
       "stack_out": []
     },
-    "350": {
+    "391": {
       "subroutine": "smart_contracts/ff_black/contract.algo.ts::FfBlack.buy",
       "params": {
         "txn#0": "uint64"
@@ -864,30 +1003,31 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "353": {
+    "394": {
       "op": "pushbytes \"\"",
       "stack_out": [
         "awst_tmp%0#0"
       ]
     },
-    "355": {
-      "op": "dupn 4",
+    "396": {
+      "op": "dupn 5",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0"
+        "tmp%5#1"
       ]
     },
-    "357": {
+    "398": {
       "op": "txn Sender"
     },
-    "359": {
+    "400": {
       "op": "intc_0 // 0"
     },
-    "360": {
-      "op": "bytec_3 // \"sellingAsset\"",
+    "401": {
+      "op": "bytec_0 // \"sellingAsset\"",
       "defined_out": [
         "\"sellingAsset\"",
         "0",
@@ -896,15 +1036,16 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "0",
         "\"sellingAsset\""
       ]
     },
-    "361": {
+    "402": {
       "op": "app_global_get_ex",
       "defined_out": [
         "buyer#0",
@@ -914,28 +1055,30 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_exists%0#0"
       ]
     },
-    "362": {
+    "403": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "363": {
+    "404": {
       "op": "txn GroupIndex",
       "defined_out": [
         "buyer#0",
@@ -945,27 +1088,29 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%0#1"
       ]
     },
-    "365": {
-      "op": "bnz buy_after_if_else@52",
+    "406": {
+      "op": "bnz buy_after_if_else@55",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "368": {
+    "409": {
       "op": "pushbytes \"ERR:GTXN\"",
       "defined_out": [
         "\"ERR:GTXN\"",
@@ -975,37 +1120,40 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "\"ERR:GTXN\""
       ]
     },
-    "378": {
+    "419": {
       "op": "log",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "379": {
+    "420": {
       "op": "err"
     },
-    "380": {
-      "block": "buy_after_if_else@52",
+    "421": {
+      "block": "buy_after_if_else@55",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
@@ -1016,15 +1164,16 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "txn#0 (copy)"
       ]
     },
-    "382": {
+    "423": {
       "op": "gtxns TypeEnum",
       "defined_out": [
         "awst_tmp%0#0"
@@ -1032,29 +1181,31 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "awst_tmp%0#0"
       ]
     },
-    "384": {
+    "425": {
       "op": "dup",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "awst_tmp%0#0",
         "awst_tmp%0#0"
       ]
     },
-    "385": {
+    "426": {
       "op": "frame_bury 0",
       "defined_out": [
         "awst_tmp%0#0"
@@ -1062,15 +1213,16 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "awst_tmp%0#0"
       ]
     },
-    "387": {
+    "428": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -1079,16 +1231,17 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "awst_tmp%0#0",
         "1"
       ]
     },
-    "388": {
+    "429": {
       "op": "==",
       "defined_out": [
         "awst_tmp%0#0",
@@ -1097,40 +1250,43 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%2#1"
       ]
     },
-    "389": {
-      "op": "bz buy_after_if_else@8",
+    "430": {
+      "op": "bz buy_after_if_else@11",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "392": {
+    "433": {
       "op": "frame_dig -1",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "txn#0 (copy)"
       ]
     },
-    "394": {
+    "435": {
       "op": "gtxns Receiver",
       "defined_out": [
         "awst_tmp%0#0",
@@ -1139,30 +1295,32 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%3#1"
       ]
     },
-    "396": {
+    "437": {
       "op": "intc_0 // 0",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%3#1",
         "0"
       ]
     },
-    "397": {
-      "op": "bytec_2 // \"revenueAddress\"",
+    "438": {
+      "op": "bytec_3 // \"revenueAddress\"",
       "defined_out": [
         "\"revenueAddress\"",
         "0",
@@ -1172,9 +1330,10 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%3#1",
@@ -1182,7 +1341,7 @@
         "\"revenueAddress\""
       ]
     },
-    "398": {
+    "439": {
       "op": "app_global_get_ex",
       "defined_out": [
         "awst_tmp%0#0",
@@ -1193,9 +1352,10 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%3#1",
@@ -1203,22 +1363,23 @@
         "maybe_exists%0#0"
       ]
     },
-    "399": {
+    "440": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%3#1",
         "maybe_value%0#1"
       ]
     },
-    "400": {
+    "441": {
       "op": "==",
       "defined_out": [
         "awst_tmp%0#0",
@@ -1227,27 +1388,29 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "cond#0"
       ]
     },
-    "401": {
-      "op": "bnz buy_after_if_else@40",
+    "442": {
+      "op": "bnz buy_after_if_else@43",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "404": {
+    "445": {
       "op": "bytec 7 // \"ERR:PAYRCV\"",
       "defined_out": [
         "\"ERR:PAYRCV\"",
@@ -1256,37 +1419,40 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "\"ERR:PAYRCV\""
       ]
     },
-    "406": {
+    "447": {
       "op": "log",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "407": {
+    "448": {
       "op": "err"
     },
-    "408": {
-      "block": "buy_after_if_else@40",
+    "449": {
+      "block": "buy_after_if_else@43",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
@@ -1297,198 +1463,215 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "txn#0 (copy)"
       ]
     },
-    "410": {
+    "451": {
       "op": "gtxns Amount",
       "defined_out": [
-        "tmp%5#0"
+        "tmp%5#1"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "tmp%5#0"
+        "tmp%5#1"
       ]
     },
-    "412": {
+    "453": {
       "op": "dup",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "tmp%5#0",
-        "tmp%5#0"
+        "tmp%5#1",
+        "tmp%5#1"
       ]
     },
-    "413": {
-      "op": "frame_bury 4",
+    "454": {
+      "op": "frame_bury 5",
       "defined_out": [
-        "tmp%5#0"
+        "tmp%5#1"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "tmp%5#0"
+        "tmp%5#1"
       ]
     },
-    "415": {
+    "456": {
       "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "tmp%5#1"
+      ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "0"
       ]
     },
-    "416": {
-      "op": "bytec_0 // \"algoPrice\"",
+    "457": {
+      "op": "bytec_1 // \"algoPrice\"",
       "defined_out": [
         "\"algoPrice\"",
         "0",
-        "tmp%5#0"
+        "tmp%5#1"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "0",
         "\"algoPrice\""
       ]
     },
-    "417": {
+    "458": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%1#1",
         "maybe_value%1#0",
-        "tmp%5#0"
+        "tmp%5#1"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "maybe_value%1#0",
         "maybe_exists%1#1"
       ]
     },
-    "418": {
+    "459": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "maybe_value%1#0"
       ]
     },
-    "419": {
+    "460": {
       "op": ">=",
       "defined_out": [
         "cond#0",
-        "tmp%5#0"
+        "tmp%5#1"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "cond#0"
       ]
     },
-    "420": {
-      "op": "bnz buy_after_if_else@44",
+    "461": {
+      "op": "bnz buy_after_if_else@47",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "423": {
+    "464": {
       "op": "bytec 8 // \"ERR:UNDERPAY\"",
       "defined_out": [
         "\"ERR:UNDERPAY\"",
-        "tmp%5#0"
+        "tmp%5#1"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "\"ERR:UNDERPAY\""
       ]
     },
-    "425": {
+    "466": {
       "op": "log",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "426": {
+    "467": {
       "op": "err"
     },
-    "427": {
-      "block": "buy_after_if_else@44",
+    "468": {
+      "block": "buy_after_if_else@47",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
@@ -1499,16 +1682,17 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "0"
       ]
     },
-    "428": {
-      "op": "bytec_0 // \"algoPrice\"",
+    "469": {
+      "op": "bytec_1 // \"algoPrice\"",
       "defined_out": [
         "\"algoPrice\"",
         "0"
@@ -1516,16 +1700,17 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "0",
         "\"algoPrice\""
       ]
     },
-    "429": {
+    "470": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%2#0",
@@ -1534,130 +1719,139 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%2#1",
         "maybe_exists%2#0"
       ]
     },
-    "430": {
+    "471": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%2#1"
       ]
     },
-    "431": {
-      "op": "frame_dig 4",
+    "472": {
+      "op": "frame_dig 5",
       "defined_out": [
         "maybe_value%2#1",
-        "tmp%5#0"
+        "tmp%5#1"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%2#1",
-        "tmp%5#0"
+        "tmp%5#1"
       ]
     },
-    "433": {
+    "474": {
       "op": "swap",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "maybe_value%2#1"
       ]
     },
-    "434": {
+    "475": {
       "op": "%",
       "defined_out": [
-        "tmp%5#0",
+        "tmp%5#1",
         "tmp%8#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%8#0"
       ]
     },
-    "435": {
-      "op": "bz buy_after_if_else@48",
+    "476": {
+      "op": "bz buy_after_if_else@51",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "438": {
+    "479": {
       "op": "bytec 9 // \"ERR:OVERPAY\"",
       "defined_out": [
         "\"ERR:OVERPAY\"",
-        "tmp%5#0"
+        "tmp%5#1"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "\"ERR:OVERPAY\""
       ]
     },
-    "440": {
+    "481": {
       "op": "log",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "441": {
+    "482": {
       "op": "err"
     },
-    "442": {
-      "block": "buy_after_if_else@48",
+    "483": {
+      "block": "buy_after_if_else@51",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
@@ -1668,16 +1862,17 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "0"
       ]
     },
-    "443": {
-      "op": "bytec_0 // \"algoPrice\"",
+    "484": {
+      "op": "bytec_1 // \"algoPrice\"",
       "defined_out": [
         "\"algoPrice\"",
         "0"
@@ -1685,16 +1880,17 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "0",
         "\"algoPrice\""
       ]
     },
-    "444": {
+    "485": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%3#0",
@@ -1703,121 +1899,129 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%3#0",
         "maybe_exists%3#0"
       ]
     },
-    "445": {
+    "486": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%3#0"
       ]
     },
-    "446": {
-      "op": "frame_dig 4",
+    "487": {
+      "op": "frame_dig 5",
       "defined_out": [
         "maybe_value%3#0",
-        "tmp%5#0"
+        "tmp%5#1"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%3#0",
-        "tmp%5#0"
+        "tmp%5#1"
       ]
     },
-    "448": {
+    "489": {
       "op": "swap",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "maybe_value%3#0"
       ]
     },
-    "449": {
+    "490": {
       "op": "/",
       "defined_out": [
         "qty#0",
-        "tmp%5#0"
+        "tmp%5#1"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "qty#0"
       ]
     },
-    "450": {
+    "491": {
       "op": "frame_bury 1",
       "defined_out": [
         "qty#0",
-        "tmp%5#0"
+        "tmp%5#1"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "452": {
-      "block": "buy_after_inlined_smart_contracts/ff_black/contract.algo.ts::FfBlack.validatePayment@13",
+    "493": {
+      "block": "buy_after_inlined_smart_contracts/ff_black/contract.algo.ts::FfBlack.validatePayment@16",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
-      "op": "frame_dig 5",
+      "op": "frame_dig 6",
       "defined_out": [
         "buyer#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0"
       ]
     },
-    "454": {
+    "495": {
       "op": "box_len",
       "defined_out": [
         "buyer#0",
@@ -1827,41 +2031,44 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%1#0",
         "cond#0"
       ]
     },
-    "455": {
+    "496": {
       "op": "bury 1",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "cond#0"
       ]
     },
-    "457": {
-      "op": "bnz buy_after_if_else@16",
+    "498": {
+      "op": "bnz buy_after_if_else@19",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "460": {
+    "501": {
       "op": "pushbytes \"ERR:NO_WL\"",
       "defined_out": [
         "\"ERR:NO_WL\"",
@@ -1870,56 +2077,60 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "\"ERR:NO_WL\""
       ]
     },
-    "471": {
+    "512": {
       "op": "log",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "472": {
+    "513": {
       "op": "err"
     },
-    "473": {
-      "block": "buy_after_if_else@16",
+    "514": {
+      "block": "buy_after_if_else@19",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
-      "op": "frame_dig 5",
+      "op": "frame_dig 6",
       "defined_out": [
         "buyer#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0"
       ]
     },
-    "475": {
+    "516": {
       "op": "box_get",
       "defined_out": [
         "buyer#0",
@@ -1929,464 +2140,504 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%2#0",
         "maybe_exists%2#0"
       ]
     },
-    "476": {
+    "517": {
       "op": "swap",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_exists%2#0",
         "maybe_value%2#0"
       ]
     },
-    "477": {
+    "518": {
       "op": "btoi",
       "defined_out": [
         "buyer#0",
         "maybe_exists%2#0",
-        "remaining#0"
+        "quota#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_exists%2#0",
-        "remaining#0"
+        "quota#0"
       ]
     },
-    "478": {
+    "519": {
       "op": "dup",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_exists%2#0",
-        "remaining#0",
-        "remaining#0"
+        "quota#0",
+        "quota#0"
       ]
     },
-    "479": {
+    "520": {
       "op": "frame_bury 2",
       "defined_out": [
         "buyer#0",
         "maybe_exists%2#0",
-        "remaining#0"
+        "quota#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_exists%2#0",
-        "remaining#0"
+        "quota#0"
       ]
     },
-    "481": {
+    "522": {
       "op": "swap",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "remaining#0",
+        "quota#0",
         "maybe_exists%2#0"
       ]
     },
-    "482": {
+    "523": {
       "error": "Box must have value",
       "op": "assert // Box must have value",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "remaining#0"
+        "quota#0"
       ]
     },
-    "483": {
+    "524": {
       "op": "frame_dig 1",
       "defined_out": [
         "buyer#0",
         "qty#0",
-        "remaining#0"
+        "quota#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "remaining#0",
+        "quota#0",
         "qty#0"
       ]
     },
-    "485": {
+    "526": {
       "op": ">=",
       "defined_out": [
         "buyer#0",
         "cond#0",
         "qty#0",
-        "remaining#0"
+        "quota#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "cond#0"
       ]
     },
-    "486": {
-      "op": "bnz buy_after_if_else@20",
+    "527": {
+      "op": "bnz buy_after_if_else@23",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "489": {
+    "530": {
       "op": "pushbytes \"ERR:QUOTA\"",
       "defined_out": [
         "\"ERR:QUOTA\"",
         "buyer#0",
         "qty#0",
-        "remaining#0"
+        "quota#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "\"ERR:QUOTA\""
       ]
     },
-    "500": {
+    "541": {
       "op": "log",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "501": {
+    "542": {
       "op": "err"
     },
-    "502": {
-      "block": "buy_after_if_else@20",
+    "543": {
+      "block": "buy_after_if_else@23",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
       "op": "frame_dig 2",
       "defined_out": [
-        "remaining#0"
+        "quota#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "remaining#0"
+        "quota#0"
       ]
     },
-    "504": {
+    "545": {
       "op": "frame_dig 1",
       "defined_out": [
         "qty#0",
-        "remaining#0"
+        "quota#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "remaining#0",
+        "quota#0",
         "qty#0"
       ]
     },
-    "506": {
-      "op": "dup",
-      "defined_out": [
-        "qty#0",
-        "qty#0 (copy)",
-        "remaining#0"
-      ],
-      "stack_out": [
-        "awst_tmp%0#0",
-        "qty#0",
-        "remaining#0",
-        "tmp%17#0",
-        "tmp%5#0",
-        "buyer#0",
-        "sellingAsset#0",
-        "remaining#0",
-        "qty#0 (copy)",
-        "qty#0 (copy)"
-      ]
-    },
-    "507": {
-      "op": "cover 2",
-      "stack_out": [
-        "awst_tmp%0#0",
-        "qty#0",
-        "remaining#0",
-        "tmp%17#0",
-        "tmp%5#0",
-        "buyer#0",
-        "sellingAsset#0",
-        "qty#0",
-        "remaining#0",
-        "qty#0 (copy)"
-      ]
-    },
-    "509": {
+    "547": {
       "op": "-",
       "defined_out": [
-        "new_box_value%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "qty#0",
-        "new_box_value%0#0"
+        "remaining#0"
       ]
     },
-    "510": {
-      "op": "itob",
-      "defined_out": [
-        "new_box_value%1#0",
-        "qty#0",
-        "remaining#0"
-      ],
+    "548": {
+      "op": "dup",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "qty#0",
-        "new_box_value%1#0"
+        "remaining#0",
+        "remaining#0"
       ]
     },
-    "511": {
-      "op": "frame_dig 5",
+    "549": {
+      "op": "frame_bury 3",
       "defined_out": [
-        "buyer#0",
-        "new_box_value%1#0",
         "qty#0",
+        "quota#0",
         "remaining#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
+        "remaining#0"
+      ]
+    },
+    "551": {
+      "op": "bnz buy_else_body@2",
+      "stack_out": [
+        "awst_tmp%0#0",
         "qty#0",
-        "new_box_value%1#0",
+        "quota#0",
+        "remaining#0",
+        "tmp%17#0",
+        "tmp%5#1",
+        "buyer#0",
+        "sellingAsset#0"
+      ]
+    },
+    "554": {
+      "op": "frame_dig 6",
+      "defined_out": [
+        "buyer#0",
+        "qty#0",
+        "quota#0",
+        "remaining#0"
+      ],
+      "stack_out": [
+        "awst_tmp%0#0",
+        "qty#0",
+        "quota#0",
+        "remaining#0",
+        "tmp%17#0",
+        "tmp%5#1",
+        "buyer#0",
+        "sellingAsset#0",
         "buyer#0"
       ]
     },
-    "513": {
-      "op": "dup"
-    },
-    "514": {
-      "op": "uncover 2",
+    "556": {
+      "op": "box_del",
       "defined_out": [
         "buyer#0",
-        "buyer#0 (copy)",
-        "new_box_value%1#0",
         "qty#0",
-        "remaining#0"
+        "quota#0",
+        "remaining#0",
+        "{box_del}"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "qty#0",
-        "buyer#0",
-        "buyer#0 (copy)",
-        "new_box_value%1#0"
+        "{box_del}"
       ]
     },
-    "516": {
-      "op": "box_put",
+    "557": {
+      "op": "pop",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
-        "sellingAsset#0",
-        "qty#0",
-        "buyer#0"
+        "sellingAsset#0"
       ]
     },
-    "517": {
+    "558": {
+      "block": "buy_after_if_else@3",
+      "stack_in": [
+        "awst_tmp%0#0",
+        "qty#0",
+        "quota#0",
+        "remaining#0",
+        "tmp%17#0",
+        "tmp%5#1",
+        "buyer#0",
+        "sellingAsset#0"
+      ],
       "op": "itxn_begin"
     },
-    "518": {
-      "op": "swap",
+    "559": {
+      "op": "frame_dig 1",
+      "defined_out": [
+        "qty#0"
+      ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
-        "buyer#0",
         "qty#0"
       ]
     },
-    "519": {
+    "561": {
       "op": "itxn_field AssetAmount",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
+        "buyer#0",
+        "sellingAsset#0"
+      ]
+    },
+    "563": {
+      "op": "frame_dig 6",
+      "defined_out": [
+        "buyer#0",
+        "qty#0"
+      ],
+      "stack_out": [
+        "awst_tmp%0#0",
+        "qty#0",
+        "quota#0",
+        "remaining#0",
+        "tmp%17#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0"
       ]
     },
-    "521": {
+    "565": {
       "op": "dup",
+      "defined_out": [
+        "buyer#0",
+        "buyer#0 (copy)",
+        "qty#0"
+      ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0",
         "buyer#0 (copy)"
       ]
     },
-    "522": {
+    "566": {
       "op": "itxn_field AssetReceiver",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0"
       ]
     },
-    "524": {
-      "op": "frame_dig 6",
+    "568": {
+      "op": "frame_dig 7",
       "defined_out": [
         "buyer#0",
         "qty#0",
-        "remaining#0",
         "sellingAsset#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "526": {
+    "570": {
       "op": "dup",
       "defined_out": [
         "buyer#0",
         "qty#0",
-        "remaining#0",
         "sellingAsset#0",
         "sellingAsset#0 (copy)"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0",
@@ -2394,35 +2645,36 @@
         "sellingAsset#0 (copy)"
       ]
     },
-    "527": {
+    "571": {
       "op": "itxn_field XferAsset",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "529": {
+    "573": {
       "op": "intc_3 // 4",
       "defined_out": [
         "4",
         "buyer#0",
         "qty#0",
-        "remaining#0",
         "sellingAsset#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0",
@@ -2430,35 +2682,36 @@
         "4"
       ]
     },
-    "530": {
+    "574": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "532": {
+    "576": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
         "buyer#0",
         "qty#0",
-        "remaining#0",
         "sellingAsset#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0",
@@ -2466,238 +2719,348 @@
         "0"
       ]
     },
-    "533": {
+    "577": {
       "op": "itxn_field Fee",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "535": {
+    "579": {
       "op": "itxn_submit"
     },
-    "536": {
+    "580": {
       "op": "asset_holding_get AssetFrozen",
       "defined_out": [
         "buyer#0",
         "check%0#0",
         "qty#0",
-        "remaining#0",
         "sellingAsset#0",
         "value%0#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "value%0#0",
         "check%0#0"
       ]
     },
-    "538": {
+    "582": {
       "error": "account opted into asset",
       "op": "assert // account opted into asset",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "value%0#0"
       ]
     },
-    "539": {
-      "op": "bnz buy_after_if_else@4",
+    "583": {
+      "op": "bnz buy_after_if_else@7",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "542": {
+    "586": {
       "op": "itxn_begin"
     },
-    "543": {
+    "587": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
         "buyer#0",
         "qty#0",
-        "remaining#0",
         "sellingAsset#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "1"
       ]
     },
-    "544": {
+    "588": {
       "op": "itxn_field FreezeAssetFrozen",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "546": {
-      "op": "frame_dig 5",
+    "590": {
+      "op": "frame_dig 6",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "buyer#0"
       ]
     },
-    "548": {
+    "592": {
       "op": "itxn_field FreezeAssetAccount",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "550": {
-      "op": "frame_dig 6",
+    "594": {
+      "op": "frame_dig 7",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "sellingAsset#0"
       ]
     },
-    "552": {
+    "596": {
       "op": "itxn_field FreezeAsset",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "554": {
+    "598": {
       "op": "pushint 5 // 5",
       "defined_out": [
         "5",
         "buyer#0",
         "qty#0",
-        "remaining#0",
         "sellingAsset#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "5"
       ]
     },
-    "556": {
+    "600": {
       "op": "itxn_field TypeEnum",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "558": {
+    "602": {
       "op": "intc_0 // 0",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "0"
       ]
     },
-    "559": {
+    "603": {
       "op": "itxn_field Fee",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "561": {
+    "605": {
       "op": "itxn_submit"
     },
-    "562": {
-      "block": "buy_after_if_else@4",
+    "606": {
+      "block": "buy_after_if_else@7",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
       "retsub": true,
       "op": "retsub"
     },
-    "563": {
-      "block": "buy_after_if_else@8",
+    "607": {
+      "block": "buy_else_body@2",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
+        "buyer#0",
+        "sellingAsset#0"
+      ],
+      "op": "frame_dig 3",
+      "defined_out": [
+        "remaining#0"
+      ],
+      "stack_out": [
+        "awst_tmp%0#0",
+        "qty#0",
+        "quota#0",
+        "remaining#0",
+        "tmp%17#0",
+        "tmp%5#1",
+        "buyer#0",
+        "sellingAsset#0",
+        "remaining#0"
+      ]
+    },
+    "609": {
+      "op": "itob",
+      "defined_out": [
+        "new_box_value%1#0",
+        "remaining#0"
+      ],
+      "stack_out": [
+        "awst_tmp%0#0",
+        "qty#0",
+        "quota#0",
+        "remaining#0",
+        "tmp%17#0",
+        "tmp%5#1",
+        "buyer#0",
+        "sellingAsset#0",
+        "new_box_value%1#0"
+      ]
+    },
+    "610": {
+      "op": "frame_dig 6",
+      "defined_out": [
+        "buyer#0",
+        "new_box_value%1#0",
+        "remaining#0"
+      ],
+      "stack_out": [
+        "awst_tmp%0#0",
+        "qty#0",
+        "quota#0",
+        "remaining#0",
+        "tmp%17#0",
+        "tmp%5#1",
+        "buyer#0",
+        "sellingAsset#0",
+        "new_box_value%1#0",
+        "buyer#0"
+      ]
+    },
+    "612": {
+      "op": "swap",
+      "stack_out": [
+        "awst_tmp%0#0",
+        "qty#0",
+        "quota#0",
+        "remaining#0",
+        "tmp%17#0",
+        "tmp%5#1",
+        "buyer#0",
+        "sellingAsset#0",
+        "buyer#0",
+        "new_box_value%1#0"
+      ]
+    },
+    "613": {
+      "op": "box_put",
+      "stack_out": [
+        "awst_tmp%0#0",
+        "qty#0",
+        "quota#0",
+        "remaining#0",
+        "tmp%17#0",
+        "tmp%5#1",
+        "buyer#0",
+        "sellingAsset#0"
+      ]
+    },
+    "614": {
+      "op": "b buy_after_if_else@3"
+    },
+    "617": {
+      "block": "buy_after_if_else@11",
+      "stack_in": [
+        "awst_tmp%0#0",
+        "qty#0",
+        "quota#0",
+        "remaining#0",
+        "tmp%17#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
@@ -2708,15 +3071,16 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "awst_tmp%0#0"
       ]
     },
-    "565": {
+    "619": {
       "op": "intc_3 // 4",
       "defined_out": [
         "4",
@@ -2725,16 +3089,17 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "awst_tmp%0#0",
         "4"
       ]
     },
-    "566": {
+    "620": {
       "op": "==",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2743,27 +3108,29 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%12#0"
       ]
     },
-    "567": {
-      "op": "bz buy_after_if_else@11",
+    "621": {
+      "op": "bz buy_after_if_else@14",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "570": {
+    "624": {
       "op": "frame_dig -1",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2772,15 +3139,16 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "txn#0 (copy)"
       ]
     },
-    "572": {
+    "626": {
       "op": "gtxns AssetReceiver",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2789,15 +3157,16 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%13#0"
       ]
     },
-    "574": {
+    "628": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -2807,17 +3176,18 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%13#0",
         "0"
       ]
     },
-    "575": {
-      "op": "bytec_2 // \"revenueAddress\"",
+    "629": {
+      "op": "bytec_3 // \"revenueAddress\"",
       "defined_out": [
         "\"revenueAddress\"",
         "0",
@@ -2827,9 +3197,10 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%13#0",
@@ -2837,7 +3208,7 @@
         "\"revenueAddress\""
       ]
     },
-    "576": {
+    "630": {
       "op": "app_global_get_ex",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2848,9 +3219,10 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%13#0",
@@ -2858,22 +3230,23 @@
         "maybe_exists%4#0"
       ]
     },
-    "577": {
+    "631": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%13#0",
         "maybe_value%4#0"
       ]
     },
-    "578": {
+    "632": {
       "op": "==",
       "defined_out": [
         "awst_tmp%0#0",
@@ -2882,27 +3255,29 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "cond#0"
       ]
     },
-    "579": {
-      "op": "bnz buy_after_if_else@24",
+    "633": {
+      "op": "bnz buy_after_if_else@27",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "582": {
+    "636": {
       "op": "bytec 7 // \"ERR:PAYRCV\"",
       "defined_out": [
         "\"ERR:PAYRCV\"",
@@ -2911,37 +3286,40 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "\"ERR:PAYRCV\""
       ]
     },
-    "584": {
+    "638": {
       "op": "log",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "585": {
+    "639": {
       "op": "err"
     },
-    "586": {
-      "block": "buy_after_if_else@24",
+    "640": {
+      "block": "buy_after_if_else@27",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
@@ -2952,15 +3330,16 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "txn#0 (copy)"
       ]
     },
-    "588": {
+    "642": {
       "op": "gtxns XferAsset",
       "defined_out": [
         "tmp%15#0"
@@ -2968,15 +3347,16 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%15#0"
       ]
     },
-    "590": {
+    "644": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -2985,17 +3365,18 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%15#0",
         "0"
       ]
     },
-    "591": {
-      "op": "bytec 4 // \"purchaseAsset\"",
+    "645": {
+      "op": "bytec 5 // \"purchaseAsset\"",
       "defined_out": [
         "\"purchaseAsset\"",
         "0",
@@ -3004,9 +3385,10 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%15#0",
@@ -3014,7 +3396,7 @@
         "\"purchaseAsset\""
       ]
     },
-    "593": {
+    "647": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%5#0",
@@ -3024,9 +3406,10 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%15#0",
@@ -3034,22 +3417,23 @@
         "maybe_exists%5#0"
       ]
     },
-    "594": {
+    "648": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%15#0",
         "maybe_value%5#0"
       ]
     },
-    "595": {
+    "649": {
       "op": "==",
       "defined_out": [
         "cond#0"
@@ -3057,27 +3441,29 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "cond#0"
       ]
     },
-    "596": {
-      "op": "bnz buy_after_if_else@28",
+    "650": {
+      "op": "bnz buy_after_if_else@31",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "599": {
+    "653": {
       "op": "pushbytes \"ERR:ASSET\"",
       "defined_out": [
         "\"ERR:ASSET\""
@@ -3085,37 +3471,40 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "\"ERR:ASSET\""
       ]
     },
-    "610": {
+    "664": {
       "op": "log",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "611": {
+    "665": {
       "op": "err"
     },
-    "612": {
-      "block": "buy_after_if_else@28",
+    "666": {
+      "block": "buy_after_if_else@31",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
@@ -3126,15 +3515,16 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "txn#0 (copy)"
       ]
     },
-    "614": {
+    "668": {
       "op": "gtxns AssetAmount",
       "defined_out": [
         "tmp%17#0"
@@ -3142,60 +3532,64 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%17#0"
       ]
     },
-    "616": {
+    "670": {
       "op": "dup",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%17#0",
         "tmp%17#0"
       ]
     },
-    "617": {
-      "op": "frame_bury 3",
+    "671": {
+      "op": "frame_bury 4",
       "defined_out": [
         "tmp%17#0"
       ],
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%17#0"
       ]
     },
-    "619": {
+    "673": {
       "op": "intc_0 // 0",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%17#0",
         "0"
       ]
     },
-    "620": {
-      "op": "bytec_1 // \"assetPrice\"",
+    "674": {
+      "op": "bytec_2 // \"assetPrice\"",
       "defined_out": [
         "\"assetPrice\"",
         "0",
@@ -3204,9 +3598,10 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%17#0",
@@ -3214,7 +3609,7 @@
         "\"assetPrice\""
       ]
     },
-    "621": {
+    "675": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%6#0",
@@ -3224,9 +3619,10 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%17#0",
@@ -3234,22 +3630,23 @@
         "maybe_exists%6#0"
       ]
     },
-    "622": {
+    "676": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%17#0",
         "maybe_value%6#0"
       ]
     },
-    "623": {
+    "677": {
       "op": ">=",
       "defined_out": [
         "cond#0",
@@ -3258,27 +3655,29 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "cond#0"
       ]
     },
-    "624": {
-      "op": "bnz buy_after_if_else@32",
+    "678": {
+      "op": "bnz buy_after_if_else@35",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "627": {
+    "681": {
       "op": "bytec 8 // \"ERR:UNDERPAY\"",
       "defined_out": [
         "\"ERR:UNDERPAY\"",
@@ -3287,37 +3686,40 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "\"ERR:UNDERPAY\""
       ]
     },
-    "629": {
+    "683": {
       "op": "log",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "630": {
+    "684": {
       "op": "err"
     },
-    "631": {
-      "block": "buy_after_if_else@32",
+    "685": {
+      "block": "buy_after_if_else@35",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
@@ -3328,16 +3730,17 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "0"
       ]
     },
-    "632": {
-      "op": "bytec_1 // \"assetPrice\"",
+    "686": {
+      "op": "bytec_2 // \"assetPrice\"",
       "defined_out": [
         "\"assetPrice\"",
         "0"
@@ -3345,16 +3748,17 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "0",
         "\"assetPrice\""
       ]
     },
-    "633": {
+    "687": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%7#0",
@@ -3363,31 +3767,33 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%7#0",
         "maybe_exists%7#0"
       ]
     },
-    "634": {
+    "688": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%7#0"
       ]
     },
-    "635": {
-      "op": "frame_dig 3",
+    "689": {
+      "op": "frame_dig 4",
       "defined_out": [
         "maybe_value%7#0",
         "tmp%17#0"
@@ -3395,30 +3801,32 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%7#0",
         "tmp%17#0"
       ]
     },
-    "637": {
+    "691": {
       "op": "swap",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%17#0",
         "maybe_value%7#0"
       ]
     },
-    "638": {
+    "692": {
       "op": "%",
       "defined_out": [
         "tmp%17#0",
@@ -3427,27 +3835,29 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%20#0"
       ]
     },
-    "639": {
-      "op": "bz buy_after_if_else@36",
+    "693": {
+      "op": "bz buy_after_if_else@39",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "642": {
+    "696": {
       "op": "bytec 9 // \"ERR:OVERPAY\"",
       "defined_out": [
         "\"ERR:OVERPAY\"",
@@ -3456,37 +3866,40 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "\"ERR:OVERPAY\""
       ]
     },
-    "644": {
+    "698": {
       "op": "log",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "645": {
+    "699": {
       "op": "err"
     },
-    "646": {
-      "block": "buy_after_if_else@36",
+    "700": {
+      "block": "buy_after_if_else@39",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
@@ -3497,16 +3910,17 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "0"
       ]
     },
-    "647": {
-      "op": "bytec_1 // \"assetPrice\"",
+    "701": {
+      "op": "bytec_2 // \"assetPrice\"",
       "defined_out": [
         "\"assetPrice\"",
         "0"
@@ -3514,16 +3928,17 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "0",
         "\"assetPrice\""
       ]
     },
-    "648": {
+    "702": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%8#0",
@@ -3532,31 +3947,33 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%8#0",
         "maybe_exists%8#0"
       ]
     },
-    "649": {
+    "703": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%8#0"
       ]
     },
-    "650": {
-      "op": "frame_dig 3",
+    "704": {
+      "op": "frame_dig 4",
       "defined_out": [
         "maybe_value%8#0",
         "tmp%17#0"
@@ -3564,30 +3981,32 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "maybe_value%8#0",
         "tmp%17#0"
       ]
     },
-    "652": {
+    "706": {
       "op": "swap",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "tmp%17#0",
         "maybe_value%8#0"
       ]
     },
-    "653": {
+    "707": {
       "op": "/",
       "defined_out": [
         "qty#0",
@@ -3596,15 +4015,16 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "qty#0"
       ]
     },
-    "654": {
+    "708": {
       "op": "frame_bury 1",
       "defined_out": [
         "qty#0",
@@ -3613,24 +4033,26 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "656": {
-      "op": "b buy_after_inlined_smart_contracts/ff_black/contract.algo.ts::FfBlack.validatePayment@13"
+    "710": {
+      "op": "b buy_after_inlined_smart_contracts/ff_black/contract.algo.ts::FfBlack.validatePayment@16"
     },
-    "659": {
-      "block": "buy_after_if_else@11",
+    "713": {
+      "block": "buy_after_if_else@14",
       "stack_in": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ],
@@ -3641,30 +4063,32 @@
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0",
         "\"ERR:PAYTYPE\""
       ]
     },
-    "672": {
+    "726": {
       "op": "log",
       "stack_out": [
         "awst_tmp%0#0",
         "qty#0",
+        "quota#0",
         "remaining#0",
         "tmp%17#0",
-        "tmp%5#0",
+        "tmp%5#1",
         "buyer#0",
         "sellingAsset#0"
       ]
     },
-    "673": {
+    "727": {
       "op": "err"
     },
-    "674": {
+    "728": {
       "subroutine": "smart_contracts/ff_black/contract.algo.ts::FfBlack.unfreeze",
       "params": {
         "account#0": "bytes"
@@ -3673,56 +4097,93 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "677": {
-      "op": "intc_0 // 0",
+    "731": {
+      "op": "global LatestTimestamp",
       "defined_out": [
-        "0"
+        "tmp%0#0"
       ],
       "stack_out": [
+        "tmp%0#0"
+      ]
+    },
+    "733": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "tmp%0#0",
         "0"
       ]
     },
-    "678": {
-      "op": "bytec 5 // \"unfreezeTime\"",
+    "734": {
+      "op": "bytec 6 // \"unfreezeTime\"",
       "defined_out": [
         "\"unfreezeTime\"",
-        "0"
+        "0",
+        "tmp%0#0"
       ],
       "stack_out": [
+        "tmp%0#0",
         "0",
         "\"unfreezeTime\""
       ]
     },
-    "680": {
+    "736": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
-        "maybe_value%0#0"
+        "maybe_value%0#0",
+        "tmp%0#0"
       ],
       "stack_out": [
+        "tmp%0#0",
         "maybe_value%0#0",
         "maybe_exists%0#0"
       ]
     },
-    "681": {
-      "op": "bury 1",
-      "stack_out": [
-        "maybe_exists%0#0"
-      ]
-    },
-    "683": {
+    "737": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "tmp%0#0",
+        "maybe_value%0#0"
+      ]
+    },
+    "738": {
+      "op": "<",
+      "defined_out": [
+        "tmp%1#0"
+      ],
+      "stack_out": [
+        "tmp%1#0"
+      ]
+    },
+    "739": {
+      "op": "bz unfreeze_after_if_else@2",
       "stack_out": []
     },
-    "684": {
+    "742": {
+      "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.ensureAdmin",
+      "op": "callsub ensureAdmin"
+    },
+    "745": {
+      "block": "unfreeze_after_if_else@2",
+      "stack_in": [],
+      "op": "itxn_begin"
+    },
+    "746": {
       "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
       "stack_out": [
         "0"
       ]
     },
-    "685": {
-      "op": "bytec_3 // \"sellingAsset\"",
+    "747": {
+      "op": "bytec_0 // \"sellingAsset\"",
       "defined_out": [
         "\"sellingAsset\"",
         "0"
@@ -3732,62 +4193,59 @@
         "\"sellingAsset\""
       ]
     },
-    "686": {
+    "748": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%1#0",
-        "sellingAsset#0"
+        "maybe_value%1#0"
       ],
       "stack_out": [
-        "sellingAsset#0",
+        "maybe_value%1#0",
         "maybe_exists%1#0"
       ]
     },
-    "687": {
+    "749": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
-        "sellingAsset#0"
+        "maybe_value%1#0"
       ]
     },
-    "688": {
-      "op": "itxn_begin"
-    },
-    "689": {
+    "750": {
       "op": "intc_0 // 0",
       "stack_out": [
-        "sellingAsset#0",
+        "maybe_value%1#0",
         "0"
       ]
     },
-    "690": {
+    "751": {
       "op": "itxn_field FreezeAssetFrozen",
       "stack_out": [
-        "sellingAsset#0"
+        "maybe_value%1#0"
       ]
     },
-    "692": {
+    "753": {
       "op": "frame_dig -1",
       "defined_out": [
         "account#0 (copy)",
-        "sellingAsset#0"
+        "maybe_value%1#0"
       ],
       "stack_out": [
-        "sellingAsset#0",
+        "maybe_value%1#0",
         "account#0 (copy)"
       ]
     },
-    "694": {
+    "755": {
       "op": "itxn_field FreezeAssetAccount",
       "stack_out": [
-        "sellingAsset#0"
+        "maybe_value%1#0"
       ]
     },
-    "696": {
+    "757": {
       "op": "itxn_field FreezeAsset",
       "stack_out": []
     },
-    "698": {
+    "759": {
       "op": "pushint 5 // 5",
       "defined_out": [
         "5"
@@ -3796,28 +4254,28 @@
         "5"
       ]
     },
-    "700": {
+    "761": {
       "op": "itxn_field TypeEnum",
       "stack_out": []
     },
-    "702": {
+    "763": {
       "op": "intc_0 // 0",
       "stack_out": [
         "0"
       ]
     },
-    "703": {
+    "764": {
       "op": "itxn_field Fee",
       "stack_out": []
     },
-    "705": {
+    "766": {
       "op": "itxn_submit"
     },
-    "706": {
+    "767": {
       "retsub": true,
       "op": "retsub"
     },
-    "707": {
+    "768": {
       "subroutine": "smart_contracts/ff_black/contract.algo.ts::FfBlack.addWhitelist",
       "params": {
         "accounts#0": "bytes"
@@ -3826,11 +4284,11 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "710": {
+    "771": {
       "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.ensureAdmin",
       "op": "callsub ensureAdmin"
     },
-    "713": {
+    "774": {
       "op": "frame_dig -1",
       "defined_out": [
         "accounts#0 (copy)"
@@ -3839,7 +4297,7 @@
         "accounts#0 (copy)"
       ]
     },
-    "715": {
+    "776": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -3850,7 +4308,7 @@
         "0"
       ]
     },
-    "716": {
+    "777": {
       "op": "extract_uint16",
       "defined_out": [
         "array_length%0#0"
@@ -3859,7 +4317,7 @@
         "array_length%0#0"
       ]
     },
-    "717": {
+    "778": {
       "op": "intc_0 // 0",
       "defined_out": [
         "array_length%0#0",
@@ -3870,7 +4328,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "718": {
+    "779": {
       "block": "addWhitelist_for_header@1",
       "stack_in": [
         "array_length%0#0",
@@ -3886,7 +4344,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "720": {
+    "781": {
       "op": "frame_dig 0",
       "defined_out": [
         "array_length%0#0",
@@ -3899,7 +4357,7 @@
         "array_length%0#0"
       ]
     },
-    "722": {
+    "783": {
       "op": "<",
       "defined_out": [
         "array_length%0#0",
@@ -3912,14 +4370,14 @@
         "continue_looping%0#0"
       ]
     },
-    "723": {
+    "784": {
       "op": "bz addWhitelist_after_for@4",
       "stack_out": [
         "array_length%0#0",
         "item_index_internal%0#0"
       ]
     },
-    "726": {
+    "787": {
       "op": "frame_dig -1",
       "defined_out": [
         "accounts#0 (copy)",
@@ -3932,7 +4390,7 @@
         "accounts#0 (copy)"
       ]
     },
-    "728": {
+    "789": {
       "op": "extract 2 0",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -3945,7 +4403,7 @@
         "array_head_and_tail%0#0"
       ]
     },
-    "731": {
+    "792": {
       "op": "frame_dig 1",
       "stack_out": [
         "array_length%0#0",
@@ -3954,7 +4412,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "733": {
+    "794": {
       "op": "dup",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -3970,7 +4428,7 @@
         "item_index_internal%0#0 (copy)"
       ]
     },
-    "734": {
+    "795": {
       "op": "cover 2",
       "stack_out": [
         "array_length%0#0",
@@ -3980,7 +4438,7 @@
         "item_index_internal%0#0 (copy)"
       ]
     },
-    "736": {
+    "797": {
       "op": "intc_2 // 32",
       "defined_out": [
         "32",
@@ -3998,7 +4456,7 @@
         "32"
       ]
     },
-    "737": {
+    "798": {
       "op": "*",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -4014,7 +4472,7 @@
         "item_offset%0#0"
       ]
     },
-    "738": {
+    "799": {
       "op": "intc_2 // 32",
       "stack_out": [
         "array_length%0#0",
@@ -4025,7 +4483,7 @@
         "32"
       ]
     },
-    "739": {
+    "800": {
       "error": "Index access is out of bounds",
       "op": "extract3 // on error: Index access is out of bounds",
       "defined_out": [
@@ -4040,7 +4498,7 @@
         "account#0"
       ]
     },
-    "740": {
+    "801": {
       "op": "pushint 5 // 5",
       "defined_out": [
         "5",
@@ -4056,7 +4514,7 @@
         "5"
       ]
     },
-    "742": {
+    "803": {
       "op": "itob",
       "defined_out": [
         "account#0",
@@ -4072,7 +4530,7 @@
         "new_box_value%0#0"
       ]
     },
-    "743": {
+    "804": {
       "op": "box_put",
       "stack_out": [
         "array_length%0#0",
@@ -4080,7 +4538,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "744": {
+    "805": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -4094,7 +4552,7 @@
         "1"
       ]
     },
-    "745": {
+    "806": {
       "op": "+",
       "stack_out": [
         "array_length%0#0",
@@ -4102,7 +4560,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "746": {
+    "807": {
       "op": "frame_bury 1",
       "defined_out": [
         "array_length%0#0",
@@ -4113,10 +4571,10 @@
         "item_index_internal%0#0"
       ]
     },
-    "748": {
+    "809": {
       "op": "b addWhitelist_for_header@1"
     },
-    "751": {
+    "812": {
       "block": "addWhitelist_after_for@4",
       "stack_in": [
         "array_length%0#0",
@@ -4125,7 +4583,7 @@
       "retsub": true,
       "op": "retsub"
     },
-    "752": {
+    "813": {
       "subroutine": "smart_contracts/ff_black/contract.algo.ts::FfBlack.removeWhitelist",
       "params": {
         "accounts#0": "bytes"
@@ -4134,11 +4592,11 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "755": {
+    "816": {
       "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.ensureAdmin",
       "op": "callsub ensureAdmin"
     },
-    "758": {
+    "819": {
       "op": "frame_dig -1",
       "defined_out": [
         "accounts#0 (copy)"
@@ -4147,7 +4605,7 @@
         "accounts#0 (copy)"
       ]
     },
-    "760": {
+    "821": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -4158,7 +4616,7 @@
         "0"
       ]
     },
-    "761": {
+    "822": {
       "op": "extract_uint16",
       "defined_out": [
         "array_length%0#0"
@@ -4167,7 +4625,7 @@
         "array_length%0#0"
       ]
     },
-    "762": {
+    "823": {
       "op": "intc_0 // 0",
       "defined_out": [
         "array_length%0#0",
@@ -4178,7 +4636,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "763": {
+    "824": {
       "block": "removeWhitelist_for_header@1",
       "stack_in": [
         "array_length%0#0",
@@ -4194,7 +4652,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "765": {
+    "826": {
       "op": "frame_dig 0",
       "defined_out": [
         "array_length%0#0",
@@ -4207,7 +4665,7 @@
         "array_length%0#0"
       ]
     },
-    "767": {
+    "828": {
       "op": "<",
       "defined_out": [
         "array_length%0#0",
@@ -4220,14 +4678,14 @@
         "continue_looping%0#0"
       ]
     },
-    "768": {
+    "829": {
       "op": "bz removeWhitelist_after_for@4",
       "stack_out": [
         "array_length%0#0",
         "item_index_internal%0#0"
       ]
     },
-    "771": {
+    "832": {
       "op": "frame_dig -1",
       "defined_out": [
         "accounts#0 (copy)",
@@ -4240,7 +4698,7 @@
         "accounts#0 (copy)"
       ]
     },
-    "773": {
+    "834": {
       "op": "extract 2 0",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -4253,7 +4711,7 @@
         "array_head_and_tail%0#0"
       ]
     },
-    "776": {
+    "837": {
       "op": "frame_dig 1",
       "stack_out": [
         "array_length%0#0",
@@ -4262,7 +4720,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "778": {
+    "839": {
       "op": "dup",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -4278,7 +4736,7 @@
         "item_index_internal%0#0 (copy)"
       ]
     },
-    "779": {
+    "840": {
       "op": "cover 2",
       "stack_out": [
         "array_length%0#0",
@@ -4288,7 +4746,7 @@
         "item_index_internal%0#0 (copy)"
       ]
     },
-    "781": {
+    "842": {
       "op": "intc_2 // 32",
       "defined_out": [
         "32",
@@ -4306,7 +4764,7 @@
         "32"
       ]
     },
-    "782": {
+    "843": {
       "op": "*",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -4322,7 +4780,7 @@
         "item_offset%0#0"
       ]
     },
-    "783": {
+    "844": {
       "op": "intc_2 // 32",
       "stack_out": [
         "array_length%0#0",
@@ -4333,7 +4791,7 @@
         "32"
       ]
     },
-    "784": {
+    "845": {
       "error": "Index access is out of bounds",
       "op": "extract3 // on error: Index access is out of bounds",
       "defined_out": [
@@ -4348,7 +4806,7 @@
         "account#0"
       ]
     },
-    "785": {
+    "846": {
       "op": "box_del",
       "defined_out": [
         "array_length%0#0",
@@ -4362,7 +4820,7 @@
         "{box_del}"
       ]
     },
-    "786": {
+    "847": {
       "op": "pop",
       "stack_out": [
         "array_length%0#0",
@@ -4370,7 +4828,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "787": {
+    "848": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
@@ -4384,7 +4842,7 @@
         "1"
       ]
     },
-    "788": {
+    "849": {
       "op": "+",
       "stack_out": [
         "array_length%0#0",
@@ -4392,7 +4850,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "789": {
+    "850": {
       "op": "frame_bury 1",
       "defined_out": [
         "array_length%0#0",
@@ -4403,10 +4861,10 @@
         "item_index_internal%0#0"
       ]
     },
-    "791": {
+    "852": {
       "op": "b removeWhitelist_for_header@1"
     },
-    "794": {
+    "855": {
       "block": "removeWhitelist_after_for@4",
       "stack_in": [
         "array_length%0#0",
@@ -4415,7 +4873,7 @@
       "retsub": true,
       "op": "retsub"
     },
-    "795": {
+    "856": {
       "subroutine": "smart_contracts/ff_black/contract.algo.ts::FfBlack.optin",
       "params": {
         "asset#0": "uint64"
@@ -4424,14 +4882,41 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "798": {
+    "859": {
       "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.ensureAdmin",
       "op": "callsub ensureAdmin"
     },
-    "801": {
+    "862": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "asset#0 (copy)"
+      ],
+      "stack_out": [
+        "asset#0 (copy)"
+      ]
+    },
+    "864": {
+      "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack._optin",
+      "op": "callsub _optin",
+      "stack_out": []
+    },
+    "867": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "868": {
+      "subroutine": "smart_contracts/ff_black/contract.algo.ts::FfBlack._optin",
+      "params": {
+        "asset#0": "uint64"
+      },
+      "block": "_optin",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "871": {
       "op": "itxn_begin"
     },
-    "802": {
+    "872": {
       "op": "global CurrentApplicationAddress",
       "defined_out": [
         "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
@@ -4440,11 +4925,11 @@
         "inner_txn_params%0%%param_AssetReceiver_idx_0#0"
       ]
     },
-    "804": {
+    "874": {
       "op": "itxn_field AssetReceiver",
       "stack_out": []
     },
-    "806": {
+    "876": {
       "op": "frame_dig -1",
       "defined_out": [
         "asset#0 (copy)"
@@ -4453,11 +4938,11 @@
         "asset#0 (copy)"
       ]
     },
-    "808": {
+    "878": {
       "op": "itxn_field XferAsset",
       "stack_out": []
     },
-    "810": {
+    "880": {
       "op": "intc_3 // 4",
       "defined_out": [
         "4"
@@ -4466,11 +4951,11 @@
         "4"
       ]
     },
-    "811": {
+    "881": {
       "op": "itxn_field TypeEnum",
       "stack_out": []
     },
-    "813": {
+    "883": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0"
@@ -4479,525 +4964,18 @@
         "0"
       ]
     },
-    "814": {
+    "884": {
       "op": "itxn_field Fee",
       "stack_out": []
     },
-    "816": {
+    "886": {
       "op": "itxn_submit"
     },
-    "817": {
+    "887": {
       "retsub": true,
       "op": "retsub"
     },
-    "818": {
-      "subroutine": "smart_contracts/ff_black/contract.algo.ts::FfBlack.getConfig",
-      "params": {},
-      "block": "getConfig",
-      "stack_in": [],
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "0"
-      ],
-      "stack_out": [
-        "0"
-      ]
-    },
-    "819": {
-      "op": "bytec_2 // \"revenueAddress\"",
-      "defined_out": [
-        "\"revenueAddress\"",
-        "0"
-      ],
-      "stack_out": [
-        "0",
-        "\"revenueAddress\""
-      ]
-    },
-    "820": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "maybe_exists%0#0",
-        "maybe_value%0#0"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "maybe_exists%0#0"
-      ]
-    },
-    "821": {
-      "error": "check GlobalState exists",
-      "op": "assert // check GlobalState exists",
-      "stack_out": [
-        "maybe_value%0#0"
-      ]
-    },
-    "822": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "maybe_value%0#0",
-        "0"
-      ]
-    },
-    "823": {
-      "op": "bytec_3 // \"sellingAsset\"",
-      "defined_out": [
-        "\"sellingAsset\"",
-        "0",
-        "maybe_value%0#0"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "0",
-        "\"sellingAsset\""
-      ]
-    },
-    "824": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "maybe_exists%1#0",
-        "maybe_value%0#0",
-        "value#0"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "value#0",
-        "maybe_exists%1#0"
-      ]
-    },
-    "825": {
-      "error": "check GlobalState exists",
-      "op": "assert // check GlobalState exists",
-      "stack_out": [
-        "maybe_value%0#0",
-        "value#0"
-      ]
-    },
-    "826": {
-      "op": "itob",
-      "defined_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0"
-      ]
-    },
-    "827": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "0"
-      ]
-    },
-    "828": {
-      "op": "bytec_0 // \"algoPrice\"",
-      "defined_out": [
-        "\"algoPrice\"",
-        "0",
-        "maybe_value%0#0",
-        "val_as_bytes%0#0"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "0",
-        "\"algoPrice\""
-      ]
-    },
-    "829": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "maybe_exists%2#0",
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "value#0"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "value#0",
-        "maybe_exists%2#0"
-      ]
-    },
-    "830": {
-      "error": "check GlobalState exists",
-      "op": "assert // check GlobalState exists",
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "value#0"
-      ]
-    },
-    "831": {
-      "op": "itob",
-      "defined_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1"
-      ]
-    },
-    "832": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "0"
-      ]
-    },
-    "833": {
-      "op": "bytec 4 // \"purchaseAsset\"",
-      "defined_out": [
-        "\"purchaseAsset\"",
-        "0",
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "0",
-        "\"purchaseAsset\""
-      ]
-    },
-    "835": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "maybe_exists%3#0",
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "value#0"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "value#0",
-        "maybe_exists%3#0"
-      ]
-    },
-    "836": {
-      "error": "check GlobalState exists",
-      "op": "assert // check GlobalState exists",
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "value#0"
-      ]
-    },
-    "837": {
-      "op": "itob",
-      "defined_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2"
-      ]
-    },
-    "838": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "0"
-      ]
-    },
-    "839": {
-      "op": "bytec_1 // \"assetPrice\"",
-      "defined_out": [
-        "\"assetPrice\"",
-        "0",
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "0",
-        "\"assetPrice\""
-      ]
-    },
-    "840": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "maybe_exists%4#0",
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "value#0"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "value#0",
-        "maybe_exists%4#0"
-      ]
-    },
-    "841": {
-      "error": "check GlobalState exists",
-      "op": "assert // check GlobalState exists",
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "value#0"
-      ]
-    },
-    "842": {
-      "op": "itob",
-      "defined_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3"
-      ]
-    },
-    "843": {
-      "op": "intc_0 // 0",
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "0"
-      ]
-    },
-    "844": {
-      "op": "bytec 5 // \"unfreezeTime\"",
-      "defined_out": [
-        "\"unfreezeTime\"",
-        "0",
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "0",
-        "\"unfreezeTime\""
-      ]
-    },
-    "846": {
-      "op": "app_global_get_ex",
-      "defined_out": [
-        "maybe_exists%5#0",
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "value#0"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "value#0",
-        "maybe_exists%5#0"
-      ]
-    },
-    "847": {
-      "error": "check GlobalState exists",
-      "op": "assert // check GlobalState exists",
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "value#0"
-      ]
-    },
-    "848": {
-      "op": "itob",
-      "defined_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "val_as_bytes%0#4"
-      ],
-      "stack_out": [
-        "maybe_value%0#0",
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "val_as_bytes%0#4"
-      ]
-    },
-    "849": {
-      "op": "uncover 5",
-      "stack_out": [
-        "val_as_bytes%0#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "val_as_bytes%0#4",
-        "maybe_value%0#0"
-      ]
-    },
-    "851": {
-      "op": "uncover 5",
-      "stack_out": [
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "val_as_bytes%0#4",
-        "maybe_value%0#0",
-        "val_as_bytes%0#0"
-      ]
-    },
-    "853": {
-      "op": "concat",
-      "defined_out": [
-        "encoded_tuple_buffer%2#0",
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "val_as_bytes%0#4"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#1",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "val_as_bytes%0#4",
-        "encoded_tuple_buffer%2#0"
-      ]
-    },
-    "854": {
-      "op": "uncover 4",
-      "stack_out": [
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "val_as_bytes%0#4",
-        "encoded_tuple_buffer%2#0",
-        "val_as_bytes%0#1"
-      ]
-    },
-    "856": {
-      "op": "concat",
-      "defined_out": [
-        "encoded_tuple_buffer%3#0",
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "val_as_bytes%0#4"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#2",
-        "val_as_bytes%0#3",
-        "val_as_bytes%0#4",
-        "encoded_tuple_buffer%3#0"
-      ]
-    },
-    "857": {
-      "op": "uncover 3",
-      "stack_out": [
-        "val_as_bytes%0#3",
-        "val_as_bytes%0#4",
-        "encoded_tuple_buffer%3#0",
-        "val_as_bytes%0#2"
-      ]
-    },
-    "859": {
-      "op": "concat",
-      "defined_out": [
-        "encoded_tuple_buffer%4#0",
-        "val_as_bytes%0#3",
-        "val_as_bytes%0#4"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#3",
-        "val_as_bytes%0#4",
-        "encoded_tuple_buffer%4#0"
-      ]
-    },
-    "860": {
-      "op": "uncover 2",
-      "stack_out": [
-        "val_as_bytes%0#4",
-        "encoded_tuple_buffer%4#0",
-        "val_as_bytes%0#3"
-      ]
-    },
-    "862": {
-      "op": "concat",
-      "defined_out": [
-        "encoded_tuple_buffer%5#0",
-        "val_as_bytes%0#4"
-      ],
-      "stack_out": [
-        "val_as_bytes%0#4",
-        "encoded_tuple_buffer%5#0"
-      ]
-    },
-    "863": {
-      "op": "swap",
-      "stack_out": [
-        "encoded_tuple_buffer%5#0",
-        "val_as_bytes%0#4"
-      ]
-    },
-    "864": {
-      "op": "concat",
-      "defined_out": [
-        "encoded_tuple_buffer%6#0"
-      ],
-      "stack_out": [
-        "encoded_tuple_buffer%6#0"
-      ]
-    },
-    "865": {
-      "retsub": true,
-      "op": "retsub"
-    },
-    "866": {
+    "888": {
       "subroutine": "smart_contracts/ff_black/contract.algo.ts::FfBlack.setConfig",
       "params": {
         "config#0": "bytes"
@@ -5006,11 +4984,11 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "869": {
+    "891": {
       "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.ensureAdmin",
       "op": "callsub ensureAdmin"
     },
-    "872": {
+    "894": {
       "op": "frame_dig -1",
       "defined_out": [
         "config#0 (copy)"
@@ -5019,7 +4997,7 @@
         "config#0 (copy)"
       ]
     },
-    "874": {
+    "896": {
       "error": "Index access is out of bounds",
       "op": "extract 0 32 // on error: Index access is out of bounds",
       "defined_out": [
@@ -5029,8 +5007,8 @@
         "tmp%0#0"
       ]
     },
-    "877": {
-      "op": "bytec_2 // \"revenueAddress\"",
+    "899": {
+      "op": "bytec_3 // \"revenueAddress\"",
       "defined_out": [
         "\"revenueAddress\"",
         "tmp%0#0"
@@ -5040,24 +5018,24 @@
         "\"revenueAddress\""
       ]
     },
-    "878": {
+    "900": {
       "op": "swap",
       "stack_out": [
         "\"revenueAddress\"",
         "tmp%0#0"
       ]
     },
-    "879": {
+    "901": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "880": {
+    "902": {
       "op": "frame_dig -1",
       "stack_out": [
         "config#0 (copy)"
       ]
     },
-    "882": {
+    "904": {
       "op": "intc_2 // 32",
       "defined_out": [
         "32",
@@ -5068,7 +5046,7 @@
         "32"
       ]
     },
-    "883": {
+    "905": {
       "op": "extract_uint64",
       "defined_out": [
         "new_state_value%0#0"
@@ -5077,8 +5055,8 @@
         "new_state_value%0#0"
       ]
     },
-    "884": {
-      "op": "bytec_3 // \"sellingAsset\"",
+    "906": {
+      "op": "bytec_0 // \"sellingAsset\"",
       "defined_out": [
         "\"sellingAsset\"",
         "new_state_value%0#0"
@@ -5088,24 +5066,24 @@
         "\"sellingAsset\""
       ]
     },
-    "885": {
+    "907": {
       "op": "swap",
       "stack_out": [
         "\"sellingAsset\"",
         "new_state_value%0#0"
       ]
     },
-    "886": {
+    "908": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "887": {
+    "909": {
       "op": "frame_dig -1",
       "stack_out": [
         "config#0 (copy)"
       ]
     },
-    "889": {
+    "911": {
       "op": "pushint 40 // 40",
       "defined_out": [
         "40",
@@ -5116,7 +5094,7 @@
         "40"
       ]
     },
-    "891": {
+    "913": {
       "op": "extract_uint64",
       "defined_out": [
         "new_state_value%1#0"
@@ -5125,8 +5103,8 @@
         "new_state_value%1#0"
       ]
     },
-    "892": {
-      "op": "bytec_0 // \"algoPrice\"",
+    "914": {
+      "op": "bytec_1 // \"algoPrice\"",
       "defined_out": [
         "\"algoPrice\"",
         "new_state_value%1#0"
@@ -5136,24 +5114,24 @@
         "\"algoPrice\""
       ]
     },
-    "893": {
+    "915": {
       "op": "swap",
       "stack_out": [
         "\"algoPrice\"",
         "new_state_value%1#0"
       ]
     },
-    "894": {
+    "916": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "895": {
+    "917": {
       "op": "frame_dig -1",
       "stack_out": [
         "config#0 (copy)"
       ]
     },
-    "897": {
+    "919": {
       "op": "pushint 48 // 48",
       "defined_out": [
         "48",
@@ -5164,7 +5142,7 @@
         "48"
       ]
     },
-    "899": {
+    "921": {
       "op": "extract_uint64",
       "defined_out": [
         "new_state_value%2#0"
@@ -5173,8 +5151,8 @@
         "new_state_value%2#0"
       ]
     },
-    "900": {
-      "op": "bytec 4 // \"purchaseAsset\"",
+    "922": {
+      "op": "bytec 5 // \"purchaseAsset\"",
       "defined_out": [
         "\"purchaseAsset\"",
         "new_state_value%2#0"
@@ -5184,24 +5162,24 @@
         "\"purchaseAsset\""
       ]
     },
-    "902": {
+    "924": {
       "op": "swap",
       "stack_out": [
         "\"purchaseAsset\"",
         "new_state_value%2#0"
       ]
     },
-    "903": {
+    "925": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "904": {
+    "926": {
       "op": "frame_dig -1",
       "stack_out": [
         "config#0 (copy)"
       ]
     },
-    "906": {
+    "928": {
       "op": "pushint 56 // 56",
       "defined_out": [
         "56",
@@ -5212,7 +5190,7 @@
         "56"
       ]
     },
-    "908": {
+    "930": {
       "op": "extract_uint64",
       "defined_out": [
         "new_state_value%3#0"
@@ -5221,8 +5199,8 @@
         "new_state_value%3#0"
       ]
     },
-    "909": {
-      "op": "bytec_1 // \"assetPrice\"",
+    "931": {
+      "op": "bytec_2 // \"assetPrice\"",
       "defined_out": [
         "\"assetPrice\"",
         "new_state_value%3#0"
@@ -5232,24 +5210,24 @@
         "\"assetPrice\""
       ]
     },
-    "910": {
+    "932": {
       "op": "swap",
       "stack_out": [
         "\"assetPrice\"",
         "new_state_value%3#0"
       ]
     },
-    "911": {
+    "933": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "912": {
+    "934": {
       "op": "frame_dig -1",
       "stack_out": [
         "config#0 (copy)"
       ]
     },
-    "914": {
+    "936": {
       "op": "pushint 64 // 64",
       "defined_out": [
         "64",
@@ -5260,7 +5238,7 @@
         "64"
       ]
     },
-    "916": {
+    "938": {
       "op": "extract_uint64",
       "defined_out": [
         "new_state_value%4#0"
@@ -5269,8 +5247,8 @@
         "new_state_value%4#0"
       ]
     },
-    "917": {
-      "op": "bytec 5 // \"unfreezeTime\"",
+    "939": {
+      "op": "bytec 6 // \"unfreezeTime\"",
       "defined_out": [
         "\"unfreezeTime\"",
         "new_state_value%4#0"
@@ -5280,22 +5258,234 @@
         "\"unfreezeTime\""
       ]
     },
-    "919": {
+    "941": {
       "op": "swap",
       "stack_out": [
         "\"unfreezeTime\"",
         "new_state_value%4#0"
       ]
     },
-    "920": {
+    "942": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "921": {
+    "943": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "944": {
+      "op": "bytec_0 // \"sellingAsset\"",
+      "stack_out": [
+        "0",
+        "\"sellingAsset\""
+      ]
+    },
+    "945": {
+      "op": "app_global_get_ex",
+      "defined_out": [
+        "maybe_exists%0#0",
+        "maybe_value%0#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "maybe_exists%0#0"
+      ]
+    },
+    "946": {
+      "error": "check GlobalState exists",
+      "op": "assert // check GlobalState exists",
+      "stack_out": [
+        "maybe_value%0#0"
+      ]
+    },
+    "947": {
+      "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack._optin",
+      "op": "callsub _optin",
+      "stack_out": []
+    },
+    "950": {
       "retsub": true,
       "op": "retsub"
     },
-    "922": {
+    "951": {
+      "subroutine": "smart_contracts/ff_black/contract.algo.ts::FfBlack.changeAdmin",
+      "params": {
+        "newAdmin#0": "bytes"
+      },
+      "block": "changeAdmin",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "954": {
+      "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.ensureAdmin",
+      "op": "callsub ensureAdmin"
+    },
+    "957": {
+      "op": "bytec 4 // \"admin\"",
+      "defined_out": [
+        "\"admin\""
+      ],
+      "stack_out": [
+        "\"admin\""
+      ]
+    },
+    "959": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "\"admin\"",
+        "newAdmin#0 (copy)"
+      ],
+      "stack_out": [
+        "\"admin\"",
+        "newAdmin#0 (copy)"
+      ]
+    },
+    "961": {
+      "op": "app_global_put",
+      "stack_out": []
+    },
+    "962": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "963": {
+      "subroutine": "smart_contracts/ff_black/contract.algo.ts::FfBlack.assetCloseout",
+      "params": {
+        "asset#0": "uint64"
+      },
+      "block": "assetCloseout",
+      "stack_in": [],
+      "op": "proto 1 0"
+    },
+    "966": {
+      "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.ensureAdmin",
+      "op": "callsub ensureAdmin"
+    },
+    "969": {
+      "op": "itxn_begin"
+    },
+    "970": {
+      "op": "txn Sender",
+      "defined_out": [
+        "inner_txn_params%0%%param_AssetCloseTo_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_AssetCloseTo_idx_0#0"
+      ]
+    },
+    "972": {
+      "op": "itxn_field AssetCloseTo",
+      "stack_out": []
+    },
+    "974": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "asset#0 (copy)"
+      ],
+      "stack_out": [
+        "asset#0 (copy)"
+      ]
+    },
+    "976": {
+      "op": "itxn_field XferAsset",
+      "stack_out": []
+    },
+    "978": {
+      "op": "intc_3 // 4",
+      "defined_out": [
+        "4"
+      ],
+      "stack_out": [
+        "4"
+      ]
+    },
+    "979": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "981": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "982": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "984": {
+      "op": "itxn_submit"
+    },
+    "985": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "986": {
+      "subroutine": "smart_contracts/ff_black/contract.algo.ts::FfBlack.algoCloseout",
+      "params": {},
+      "block": "algoCloseout",
+      "stack_in": [],
+      "callsub": "smart_contracts/ff_black/contract.algo.ts::FfBlack.ensureAdmin",
+      "op": "callsub ensureAdmin"
+    },
+    "989": {
+      "op": "itxn_begin"
+    },
+    "990": {
+      "op": "txn Sender",
+      "defined_out": [
+        "inner_txn_params%0%%param_CloseRemainderTo_idx_0#0"
+      ],
+      "stack_out": [
+        "inner_txn_params%0%%param_CloseRemainderTo_idx_0#0"
+      ]
+    },
+    "992": {
+      "op": "itxn_field CloseRemainderTo",
+      "stack_out": []
+    },
+    "994": {
+      "op": "intc_1 // 1",
+      "defined_out": [
+        "1"
+      ],
+      "stack_out": [
+        "1"
+      ]
+    },
+    "995": {
+      "op": "itxn_field TypeEnum",
+      "stack_out": []
+    },
+    "997": {
+      "op": "intc_0 // 0",
+      "defined_out": [
+        "0"
+      ],
+      "stack_out": [
+        "0"
+      ]
+    },
+    "998": {
+      "op": "itxn_field Fee",
+      "stack_out": []
+    },
+    "1000": {
+      "op": "itxn_submit"
+    },
+    "1001": {
+      "retsub": true,
+      "op": "retsub"
+    },
+    "1002": {
       "subroutine": "smart_contracts/ff_black/contract.algo.ts::FfBlack.ensureAdmin",
       "params": {},
       "block": "ensureAdmin",
@@ -5308,7 +5498,7 @@
         "tmp%0#0"
       ]
     },
-    "924": {
+    "1004": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -5319,8 +5509,8 @@
         "0"
       ]
     },
-    "925": {
-      "op": "bytec 6 // \"admin\"",
+    "1005": {
+      "op": "bytec 4 // \"admin\"",
       "defined_out": [
         "\"admin\"",
         "0",
@@ -5332,7 +5522,7 @@
         "\"admin\""
       ]
     },
-    "927": {
+    "1007": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -5345,7 +5535,7 @@
         "maybe_exists%0#0"
       ]
     },
-    "928": {
+    "1008": {
       "error": "check GlobalState exists",
       "op": "assert // check GlobalState exists",
       "stack_out": [
@@ -5353,7 +5543,7 @@
         "maybe_value%0#0"
       ]
     },
-    "929": {
+    "1009": {
       "op": "==",
       "defined_out": [
         "cond#0"
@@ -5362,11 +5552,11 @@
         "cond#0"
       ]
     },
-    "930": {
+    "1010": {
       "op": "bnz ensureAdmin_after_if_else@3",
       "stack_out": []
     },
-    "933": {
+    "1013": {
       "op": "pushbytes \"ERR:UNAUTH\"",
       "defined_out": [
         "\"ERR:UNAUTH\""
@@ -5375,14 +5565,14 @@
         "\"ERR:UNAUTH\""
       ]
     },
-    "945": {
+    "1025": {
       "op": "log",
       "stack_out": []
     },
-    "946": {
+    "1026": {
       "op": "err"
     },
-    "947": {
+    "1027": {
       "block": "ensureAdmin_after_if_else@3",
       "stack_in": [],
       "retsub": true,
