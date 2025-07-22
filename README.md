@@ -2,19 +2,19 @@
 
 ## Requirements
 
-[v] Payment to `revenueAddress`
-[v] Purchase options:
-  [v] In ALGO with `algoPrice`
-  [v] In `purchaseAsset` with `assetPrice`
+- Payment to `revenueAddress`
+- Purchase options:
+  - In ALGO with `algoPrice`
+  - In `purchaseAsset` with `assetPrice`
 
-[v] buyers are frozen after selling (until `unfreezeTime`)
-[v] After `unfreezeTime` anyone will be able to unfreeze their account
+- buyers are frozen after selling (until `unfreezeTime`)
+- After `unfreezeTime` anyone will be able to unfreeze their account
 
-[v] Only to whitelisted addresses
-  [v] Allowed amount to mint: 5
+- Only to whitelisted addresses
+  - Allowed amount to mint: 5
 
-[v] Admin sets configuration & whitelist
-[v] Admin can opt in to assets / close out assets / algo
+- Admin sets configuration & whitelist
+- Admin can opt in to assets / close out assets / algo
 
 ## Setup
 
