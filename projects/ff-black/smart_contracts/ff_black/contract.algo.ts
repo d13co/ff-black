@@ -1,6 +1,5 @@
 import {
   Account,
-  arc4,
   Asset,
   BoxMap,
   Contract,
@@ -14,17 +13,20 @@ import {
   Txn,
   uint64,
 } from '@algorandfoundation/algorand-typescript'
-import { Address, Struct, UintN64 } from '@algorandfoundation/algorand-typescript/arc4'
+import { Address } from '@algorandfoundation/algorand-typescript/arc4'
+
+// always set inner transaction fee to 0
+const fee: uint64 = 0
 
 // see global state for docs
-class ContractConfig extends Struct<{
+type ContractConfig = {
   revenueAddress: Address
-  sellingAsset: UintN64
-  algoPrice: UintN64
-  purchaseAsset: UintN64
-  assetPrice: UintN64
-  unfreezeTime: UintN64
-}> {}
+  sellingAsset: uint64
+  algoPrice: uint64
+  purchaseAsset: uint64
+  assetPrice: uint64
+  unfreezeTime: uint64
+}
 
 export class FfBlack extends Contract {
   // configures contract stuff
@@ -72,6 +74,7 @@ export class FfBlack extends Contract {
         xferAsset: sellingAsset,
         assetReceiver: buyer,
         assetAmount: qty,
+        fee
       })
       .submit()
 
@@ -82,6 +85,7 @@ export class FfBlack extends Contract {
           freezeAsset: sellingAsset,
           freezeAccount: buyer,
           frozen: true,
+          fee
         })
         .submit()
     }
@@ -138,6 +142,7 @@ export class FfBlack extends Contract {
         freezeAsset: this.sellingAsset.value,
         freezeAccount: account,
         frozen: false,
+        fee
       })
       .submit()
   }
@@ -147,7 +152,7 @@ export class FfBlack extends Contract {
    * Buy quota is hardcoded to 5
    * @param accounts accounts to add to WL
    */
-  public addWhitelist(accounts: arc4.Address[]) {
+  public addWhitelist(accounts: Address[]) {
     this.ensureAdmin()
 
     for (const account of accounts) {
@@ -159,7 +164,7 @@ export class FfBlack extends Contract {
    * Remove accounts from whitelist. Fails if any are not on WL
    * @param accounts accounts to remove from WL
    */
-  public removeWhitelist(accounts: arc4.Address[]) {
+  public removeWhitelist(accounts: Address[]) {
     this.ensureAdmin()
 
     for (const account of accounts) {
@@ -183,6 +188,7 @@ export class FfBlack extends Contract {
       .assetTransfer({
         xferAsset: asset,
         assetReceiver: Global.currentApplicationAddress,
+        fee
       })
       .submit()
   }
@@ -195,11 +201,11 @@ export class FfBlack extends Contract {
     this.ensureAdmin()
 
     this.revenueAddress.value = config.revenueAddress.native
-    this.sellingAsset.value = Asset(config.sellingAsset.native)
-    this.algoPrice.value = config.algoPrice.native
-    this.purchaseAsset.value = Asset(config.purchaseAsset.native)
-    this.assetPrice.value = config.assetPrice.native
-    this.unfreezeTime.value = config.unfreezeTime.native
+    this.sellingAsset.value = Asset(config.sellingAsset)
+    this.algoPrice.value = config.algoPrice
+    this.purchaseAsset.value = Asset(config.purchaseAsset)
+    this.assetPrice.value = config.assetPrice
+    this.unfreezeTime.value = config.unfreezeTime
 
     if (!Global.currentApplicationAddress.isOptedIn(this.sellingAsset.value)) {
       this._optin(this.sellingAsset.value)
@@ -227,6 +233,7 @@ export class FfBlack extends Contract {
       .assetTransfer({
         xferAsset: asset,
         assetCloseTo: Txn.sender,
+        fee
       })
       .submit()
   }
@@ -242,6 +249,7 @@ export class FfBlack extends Contract {
     itxn
       .payment({
         closeRemainderTo: Txn.sender,
+        fee
       })
       .submit()
   }
